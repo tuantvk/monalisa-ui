@@ -1,11 +1,11 @@
 import React from 'react';
 import {
   Image,
-  StyleSheet,
 } from 'react-native';
 
 export default ({
-  type,
+  circle,
+  rounded,
   style,
   width = 50,
   height = 50,
@@ -14,15 +14,10 @@ export default ({
     <Image
       {...rest}
       style={[
+        { width, height },
+        circle && { borderRadius: width / 2 },
+        rounded && { borderRadius: width / 10 },
         style,
-        {
-          width,
-          height,
-        }
       ]}
     />
   );
-
-const styles = StyleSheet.create({
-
-});
