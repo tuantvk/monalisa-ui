@@ -1,6 +1,17 @@
 import React from 'react';
 import { Layout, Row } from '../screen';
-import Avatar from '../../src/components/Avatar';
+import {
+  Avatar,
+  AvatarGroup,
+} from '../../src/components/Avatar';
+
+const groups = [
+  { source: { uri: 'https://picsum.photos/id/434/200/200' } },
+  { source: { uri: 'https://picsum.photos/id/434/200/200' } },
+  { source: { uri: 'https://picsum.photos/id/434/200/200' } },
+  { source: { uri: 'https://picsum.photos/id/434/200/200' } },
+  { source: { uri: 'https://picsum.photos/id/434/200/200' } },
+];
 
 export default ({ navigation }) => (
   <Layout navigation={navigation}>
@@ -53,6 +64,17 @@ export default ({ navigation }) => (
         width={120}
         height={120}
         rounded
+      />
+    </Row>
+    <Row title="Avatar group stack">
+      <AvatarGroup
+        data={groups}
+      />
+    </Row>
+    <Row title="Avatar group grid">
+      <AvatarGroup
+        data={[...groups, ...groups]}
+        appearance="grid"
       />
     </Row>
   </Layout>

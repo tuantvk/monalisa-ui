@@ -70,6 +70,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: '#3e50fa',
     fontSize: 24,
-    marginLeft: scale(30),
+    marginLeft: scale(8),
   }
 });
