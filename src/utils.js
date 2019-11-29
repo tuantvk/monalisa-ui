@@ -14,4 +14,4 @@ export const wScale = size => height / guidelineBaseHeight * size;
 // height
 export const hScale = (size, factor = 0.5) => size + (scale(size) - size) * factor;
 
-export const TYPELAST = 'last';
+export const subNumber = (a, b) => Number(a) - Number(b);

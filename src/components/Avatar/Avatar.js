@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {
   Image,
   View,
@@ -6,39 +6,44 @@ import {
   Text,
 } from 'react-native';
 import { gray_light } from '../../styles';
+import PropTypes from 'prop-types';
 
-export default ({
-  circle,
-  rounded,
-  style,
-  isVisible = true,
-  width = 50,
-  height = 50,
-  ...rest
-}) => {
+class Avatar extends Component {
+  render() {
+    const {
+      circle,
+      rounded,
+      style,
+      isVisible,
+      width,
+      height,
+      value,
+      ...rest
+    } = this.props;
 
-  // format style avatar
-  let customs = [
-    { width, height },
-    circle && { borderRadius: width / 2 },
-    rounded && { borderRadius: width / 10 },
-    isVisible ? {} : { ...styles.visible, borderRadius: width / 2 },
-    style,
-  ];
+    let customs = [
+      { width, height },
+      circle && { borderRadius: width / 2 },
+      rounded && { borderRadius: width / 10 },
+      isVisible ? {} : { ...styles.visible, borderRadius: width / 2 },
+      style,
+    ];
 
-  if (isVisible) {
+    if (isVisible) {
+      return (
+        <Image
+          {...rest}
+          style={customs}
+        />
+      );
+    }
     return (
-      <Image
-        {...rest}
-        style={customs}
-      />
+      <View style={customs}>
+        <Text>{value}</Text>
+      </View>
     );
+
   }
-  return (
-    <View style={customs}>
-      <Text>+12</Text>
-    </View>
-  );
 }
 
 const styles = StyleSheet.create({
@@ -48,3 +53,21 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   }
 });
+
+Avatar.propTypes = {
+  circle: PropTypes.bool,
+  rounded: PropTypes.bool,
+  isVisible: PropTypes.bool,
+  width: PropTypes.number,
+  height: PropTypes.number,
+  value: PropTypes.string,
+}
+
+Avatar.defaultProps = {
+  isVisible: true,
+  width: 50,
+  height: 50,
+  value: '',
+}
+
+export default Avatar;

@@ -77,5 +77,12 @@ export default ({ navigation }) => (
         appearance="grid"
       />
     </Row>
+    <Row title="Avatar max count">
+      <AvatarGroup
+        data={[...groups, ...groups]}
+        appearance="grid"
+        maxCount={7}
+      />
+    </Row>
   </Layout>
 );
