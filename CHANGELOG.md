@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## Version 0.0.3
+Build: 191129
+
+### Updated
+
+- Add Badge component
+- Add license for project
+- Update readme, feature component
+
+### Fix
+
+- Warning proptypes Icon component
+
+
 
 ## Version 0.0.2
 Build: 191129
@@ -10,6 +24,7 @@ Build: 191129
 - Add Row component
 - Add Icon component
 - Add docs for Avatar, Row, Icon
+
 
 
 ## Version 0.0.1

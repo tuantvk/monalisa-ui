@@ -1,3 +1,9 @@
+/**
+ * @license
+ * Copyright tuantvk. All Rights Reserved.
+ * Licensed under the MIT License. See License in the project root for license information.
+ */
+
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import Example from './example';

@@ -1,7 +1,11 @@
 {
   "name": "monalisa-ui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
+  "author": {
+    "name": "tuantvk",
+    "url": "https://tuantvk.github.io"
+  },
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",

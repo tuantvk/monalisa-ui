@@ -7,4 +7,9 @@ export default [
   "Input",
   "Text",
   "Row",
+  "Col",
+  "Spinner",
+  "List",
+  "List Item",
+  "Switch",
 ]
