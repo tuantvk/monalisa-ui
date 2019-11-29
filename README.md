@@ -4,10 +4,10 @@
 ### Feature
 
 - [x] Avatar
-  + [x] Avatar group
+- [x] Avatar group
 - [ ] Button
 - [ ] Card
-- [ ] Icon
+- [x] Icon
 - [ ] Input
 - [ ] Text
 - [ ] Badge
