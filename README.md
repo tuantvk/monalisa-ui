@@ -3,8 +3,8 @@
 
 ### Feature
 
-- [ ] Avatar
-  + [ ] Avatar group
+- [x] Avatar
+  + [x] Avatar group
 - [ ] Button
 - [ ] Card
 - [ ] Icon
@@ -12,4 +12,4 @@
 - [ ] Text
 - [ ] Badge
 - [ ] Textarea
-- [ ] Row
+- [x] Row
