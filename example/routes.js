@@ -1,9 +1,15 @@
 export default [
   "Avatar",
   "Button",
+  "Badge",
   "Card",
   "Icon",
   "Input",
   "Text",
   "Row",
+  "Col",
+  "Spinner",
+  "List",
+  "List Item",
+  "Switch",
 ]

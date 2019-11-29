@@ -10,39 +10,43 @@ import {
   StyleSheet,
 } from 'react-native';
 import PropTypes from 'prop-types';
+import { gray_light } from '../../styles';
+import { scale } from '../../utils';
 
-class Row extends Component {
+class Card extends Component {
   render() {
     const {
       style,
-      content,
+      bordered,
+      rounded,
       children,
     } = this.props;
 
     return (
       <View style={[
-        styles.row,
-        { justifyContent: content },
+        bordered && styles.bordered,
+        rounded && styles.rounded,
         style,
       ]}>
         {children}
       </View>
-    );
+    )
   }
 }
 
 const styles = StyleSheet.create({
-  row: {
-    flexDirection: 'row',
-  }
+  bordered: {
+    borderColor: gray_light,
+    borderWidth: 1,
+  },
+  rounded: {
+    borderRadius: scale(8),
+  },
 });
 
-Row.propTypes = {
-  content: PropTypes.string,
+Card.propTypes = {
+  bordered: PropTypes.bool,
+  rounded: PropTypes.bool,
 }
 
-Row.defaultProps = {
-  content: 'flex-start',
-}
-
-export default Row;
+export default Card;

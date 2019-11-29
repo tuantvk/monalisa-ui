@@ -1,3 +1,9 @@
+/**
+ * @license
+ * Copyright tuantvk. All Rights Reserved.
+ * Licensed under the MIT License. See License in the project root for license information.
+ */
+
 import React, { Component } from 'react';
 import { Platform } from 'react-native';
 import PropTypes from 'prop-types';
@@ -95,6 +101,7 @@ Icon.propTypes = {
     'Roboto',
     'SimpleLineIcons',
     'Zocial',
+    'Fontisto',
   ]),
   ios: PropTypes.string,
   android: PropTypes.string,
