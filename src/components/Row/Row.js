@@ -15,9 +15,9 @@ class Row extends Component {
 
     return (
       <View style={[
-        style,
         styles.row,
         { justifyContent: content },
+        style,
       ]}>
         {children}
       </View>

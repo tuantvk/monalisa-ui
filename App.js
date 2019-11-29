@@ -4,6 +4,7 @@ import Example from './example';
 import Avatar from './example/Avatar';
 import Row from './example/Row';
 import Icon from './example/Icon';
+import Card from './example/Card';
 
 const AppNavigator = createStackNavigator({
   Example: {
@@ -17,6 +18,9 @@ const AppNavigator = createStackNavigator({
   },
   Icon: {
     screen: Icon,
+  },
+  Card: {
+    screen: Card,
   },
 }, {
   initialRouteName: 'Example',

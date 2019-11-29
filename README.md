@@ -6,7 +6,8 @@
 - [x] Avatar
 - [x] Avatar group
 - [ ] Button
-- [ ] Card
+- [x] Card
+- [x] Card Image
 - [x] Icon
 - [ ] Input
 - [ ] Text
