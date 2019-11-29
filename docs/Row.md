@@ -1,6 +1,8 @@
 # Row
 
-Use this property to center a child horizontally within a container with flexDirection set to row
+Use this property to center a child horizontally within a container with flexDirection set to row.
+
+View full example: [Row Example](/example/Row/index.js)
 
 ```javascript
 import React from 'react';
