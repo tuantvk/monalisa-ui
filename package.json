@@ -1,6 +1,6 @@
 {
   "name": "monalisa-ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -25,6 +25,7 @@
     "eslint": "^6.7.1",
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.57.0",
+    "prop-types": "^15.7.2",
     "react-test-renderer": "16.9.0"
   },
   "jest": {

@@ -5,4 +5,5 @@ export default [
   "Icon",
   "Input",
   "Text",
+  "Row",
 ]

@@ -14,19 +14,21 @@ export const Layout = ({
   navigation,
   children,
 }) => (
-    <View style={styles.layout}>
+    <View>
       <StatusBar hidden />
-      <ScrollView>
-        {
-          navigation &&
-          <View style={styles.header}>
-            <TouchableOpacity activeOpacity={.95} onPress={() => navigation.goBack()}>
-              <Icon name="left" size={24} color="#3e50fa" />
-            </TouchableOpacity>
-            <Text style={styles.screen}>{navigation.state.routeName}</Text>
-          </View>
-        }
-        {children}
+      <ScrollView showsVerticalScrollIndicator={false}>
+        <View style={styles.layout}>
+          {
+            navigation &&
+            <View style={styles.header}>
+              <TouchableOpacity activeOpacity={.95} onPress={() => navigation.goBack()}>
+                <Icon name="left" size={24} color="#3e50fa" />
+              </TouchableOpacity>
+              <Text style={styles.screen}>{navigation.state.routeName}</Text>
+            </View>
+          }
+          {children}
+        </View>
       </ScrollView>
     </View>
   );
@@ -68,6 +70,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: '#3e50fa',
     fontSize: 24,
-    marginLeft: scale(30),
+    marginLeft: scale(8),
   }
 });

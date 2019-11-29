@@ -1,28 +1,7 @@
-import React from 'react';
-import {
-  Image,
-  StyleSheet,
-} from 'react-native';
+import Avatar from './Avatar';
+import AvatarGroup from './AvatarGroup';
 
-export default ({
-  type,
-  style,
-  width = 50,
-  height = 50,
-  ...rest
-}) => (
-    <Image
-      {...rest}
-      style={[
-        style,
-        {
-          width,
-          height,
-        }
-      ]}
-    />
-  );
-
-const styles = StyleSheet.create({
-
-});
+export {
+  Avatar,
+  AvatarGroup,
+}
