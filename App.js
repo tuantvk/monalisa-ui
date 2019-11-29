@@ -5,6 +5,7 @@ import Avatar from './example/Avatar';
 import Row from './example/Row';
 import Icon from './example/Icon';
 import Card from './example/Card';
+import Badge from './example/Badge';
 
 const AppNavigator = createStackNavigator({
   Example: {
@@ -21,6 +22,9 @@ const AppNavigator = createStackNavigator({
   },
   Card: {
     screen: Card,
+  },
+  Badge: {
+    screen: Badge,
   },
 }, {
   initialRouteName: 'Example',
