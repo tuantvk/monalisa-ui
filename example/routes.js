@@ -12,4 +12,5 @@ export default [
   "List",
   "List Item",
   "Switch",
+  "Tag",
 ]

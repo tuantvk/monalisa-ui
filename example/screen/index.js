@@ -52,6 +52,14 @@ export const Row = ({
     </View>
   );
 
+export const Box = ({ value }) => (
+  <View style={styles.box}>
+    <Text style={styles.boxContent}>{value}</Text>
+  </View>
+);
+
+export const Title = ({ name }) => <Text style={styles.title}>{name}</Text>
+
 const styles = StyleSheet.create({
   layout: {
     padding: scale(25),
@@ -77,5 +85,18 @@ const styles = StyleSheet.create({
     color: '#3e50fa',
     fontSize: 24,
     marginLeft: scale(8),
+  },
+  box: {
+    width: 50,
+    height: 50,
+    backgroundColor: '#3e50fa',
+    marginHorizontal: 5,
+    marginBottom: 50,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  boxContent: {
+    fontSize: 16,
+    color: '#fff',
   }
 });

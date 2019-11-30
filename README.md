@@ -22,6 +22,7 @@ React Native UI Library
 - [ ] List
 - [ ] List Item
 - [ ] Switch
+- [ ] Tag
 
 
 ## Contributing
