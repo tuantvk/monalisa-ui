@@ -17,12 +17,12 @@ React Native UI Library
 - [x] Badge
 - [ ] Textarea
 - [x] Row
-- [ ] Col
+- [x] Col
 - [ ] Spinner
 - [ ] List
 - [ ] List Item
 - [ ] Switch
-- [ ] Tag
+- [x] Tag
 
 
 ## Contributing

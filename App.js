@@ -13,6 +13,7 @@ import Icon from './example/Icon';
 import Card from './example/Card';
 import Badge from './example/Badge';
 import Col from './example/Col';
+import Tag from './example/Tag';
 
 const AppNavigator = createStackNavigator({
   Example: {
@@ -35,6 +36,9 @@ const AppNavigator = createStackNavigator({
   },
   Col: {
     screen: Col,
+  },
+  Tag: {
+    screen: Tag,
   },
 }, {
   initialRouteName: 'Example',
