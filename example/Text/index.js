@@ -31,5 +31,8 @@ export default ({ navigation }) => (
     <Row title="bold">
       <Text bold>This is Text bold</Text>
     </Row>
+    <Row title="color">
+      <Text color="#ff0000">This is Text color</Text>
+    </Row>
   </Layout>
 );
