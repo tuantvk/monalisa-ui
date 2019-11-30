@@ -13,7 +13,7 @@ React Native UI Library
 - [x] Card Image
 - [x] Icon
 - [ ] Input
-- [ ] Text
+- [x] Text
 - [x] Badge
 - [ ] Textarea
 - [x] Row

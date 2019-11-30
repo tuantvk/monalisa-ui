@@ -14,6 +14,7 @@ import Card from './example/Card';
 import Badge from './example/Badge';
 import Col from './example/Col';
 import Tag from './example/Tag';
+import Text from './example/Text';
 
 const AppNavigator = createStackNavigator({
   Example: {
@@ -39,6 +40,9 @@ const AppNavigator = createStackNavigator({
   },
   Tag: {
     screen: Tag,
+  },
+  Text: {
+    screen: Text,
   },
 }, {
   initialRouteName: 'Example',
