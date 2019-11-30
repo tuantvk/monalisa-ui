@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## Version 0.0.4
+Build: 191130
+
+### Updated
+
+- Add Col component
+- Add Tag component
+- Add Text component
+
+
 ## Version 0.0.3
 Build: 191129
 

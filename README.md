@@ -1,5 +1,7 @@
 # MonalisaUI
 
+![MonalisaUI](/assets/monalisa-ui-logo.png)
+
 React Native UI Library
 
 ### Feature
@@ -12,10 +14,10 @@ React Native UI Library
 - [x] Card
 - [x] Card Image
 - [x] Icon
-- [ ] Input
+- [x] Input
 - [x] Text
 - [x] Badge
-- [ ] Textarea
+- [x] Textarea
 - [x] Row
 - [x] Col
 - [ ] Spinner
