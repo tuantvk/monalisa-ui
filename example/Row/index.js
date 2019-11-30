@@ -6,32 +6,11 @@
 
 import React from 'react';
 import {
-  View,
-  StyleSheet,
-  Text,
-} from 'react-native';
-import { Layout } from '../screen';
+  Layout,
+  Box,
+  Title,
+} from '../screen';
 import { Row } from '../../src/components/Row';
-
-const styles = StyleSheet.create({
-  box: {
-    width: 50,
-    height: 50,
-    backgroundColor: '#3e50fa',
-    marginHorizontal: 5,
-    marginBottom: 50,
-  },
-  title: {
-    marginBottom: 10,
-    fontSize: 16,
-  }
-});
-
-const Box = () => (
-  <View style={styles.box} />
-);
-
-const Title = ({ name }) => <Text style={styles.title}>{name}</Text>
 
 export default ({ navigation }) => (
   <Layout navigation={navigation}>

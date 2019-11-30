@@ -13,15 +13,16 @@ React Native UI Library
 - [x] Card Image
 - [x] Icon
 - [ ] Input
-- [ ] Text
+- [x] Text
 - [x] Badge
 - [ ] Textarea
 - [x] Row
-- [ ] Col
+- [x] Col
 - [ ] Spinner
 - [ ] List
 - [ ] List Item
 - [ ] Switch
+- [x] Tag
 
 
 ## Contributing

@@ -1,10 +1,16 @@
 {
   "name": "monalisa-ui",
-  "version": "0.0.3",
+  "version": "0.0.4",
+  "description": "React Native UI Library",
   "private": true,
   "author": {
     "name": "tuantvk",
     "url": "https://tuantvk.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuantvk/monalisa-ui",
+    "issues": "https://github.com/tuantvk/monalisa-ui/issues"
   },
   "scripts": {
     "android": "react-native run-android",
@@ -34,5 +40,17 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "keywords": [
+    "react native",
+    "monalisa-ui",
+    "react native component",
+    "react",
+    "react native ui",
+    "ui component",
+    "ui design",
+    "uikit",
+    "react native monalisa ui"
+  ],
+  "license": "MIT"
 }
