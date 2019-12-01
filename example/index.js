@@ -10,9 +10,10 @@ import {
   StyleSheet,
   Text,
   TouchableOpacity,
+  Image,
 } from 'react-native';
 import routes from './routes';
-import { scale } from '../src/utils';
+import { scale, wScale } from '../src/utils';
 import { Layout } from './screen';
 
 const CardExample = ({
@@ -26,7 +27,13 @@ const CardExample = ({
 export default ({ navigation }) => (
   <View style={styles.container}>
     <Layout>
-      <Text style={styles.appName}>MonalisaUI</Text>
+      <View style={styles.header}>
+        <Image
+          source={{ uri: 'https://raw.githubusercontent.com/tuantvk/monalisa-ui/master/assets/monalisa-ui-logo.png' }}
+          style={styles.logo}
+        />
+        <Text style={styles.appName}>MonalisaUI</Text>
+      </View>
       {
         routes.map(route =>
           <TouchableOpacity key={route} activeOpacity={.95} onPress={() => navigation.navigate(route)}>
@@ -60,7 +67,15 @@ const styles = StyleSheet.create({
   appName: {
     color: '#fff',
     fontSize: 24,
-    textAlign: 'center',
+  },
+  logo: {
+    width: wScale(40),
+    height: wScale(40),
+    marginRight: scale(20),
+  },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
     marginBottom: scale(25),
   }
 });

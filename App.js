@@ -17,6 +17,7 @@ import Tag from './example/Tag';
 import Text from './example/Text';
 import Input from './example/Input';
 import Textarea from './example/Textarea';
+import Button from './example/Button';
 
 const AppNavigator = createStackNavigator({
   Example: {
@@ -51,6 +52,9 @@ const AppNavigator = createStackNavigator({
   },
   Textarea: {
     screen: Textarea,
+  },
+  Button: {
+    screen: Button,
   },
 }, {
   initialRouteName: 'Example',

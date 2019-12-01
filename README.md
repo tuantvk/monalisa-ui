@@ -1,15 +1,22 @@
+
+<p align="center">
+  <img
+	  src="assets/monalisa-ui-logo.png"
+		alt="MonalisaUI Logo"
+		width="200">
+</p>
+
+
 # MonalisaUI
 
-![MonalisaUI](/assets/monalisa-ui-logo.png)
-
 React Native UI Library
+
 
 ### Feature
 
 - [x] Avatar
 - [x] Avatar Group
-- [ ] Button
-- [ ] Button Icon
+- [x] Button
 - [ ] Button Group
 - [x] Card
 - [x] Card Image
