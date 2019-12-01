@@ -16,6 +16,7 @@ import Col from './example/Col';
 import Tag from './example/Tag';
 import Text from './example/Text';
 import Input from './example/Input';
+import Textarea from './example/Textarea';
 
 const AppNavigator = createStackNavigator({
   Example: {
@@ -47,6 +48,9 @@ const AppNavigator = createStackNavigator({
   },
   Input: {
     screen: Input,
+  },
+  Textarea: {
+    screen: Textarea,
   },
 }, {
   initialRouteName: 'Example',

@@ -5,19 +5,12 @@
  */
 
 import React from 'react';
-import { StyleSheet } from 'react-native';
 import {
   Layout,
   Title,
 } from '../screen';
 import { Input } from '../../src/components/Input';
 import Icon from 'react-native-vector-icons/AntDesign';
-
-const styles = StyleSheet.create({
-  input: {
-    marginBottom: 15,
-  }
-});
 
 export default ({ navigation }) => (
   <Layout navigation={navigation}>
@@ -26,12 +19,12 @@ export default ({ navigation }) => (
       placeholder="Input value"
     />
     <Input
-      transparent
-      placeholder="Input transparent"
-    />
-    <Input
       label="Username"
       placeholder="Input label"
+    />
+    <Input
+      transparent
+      placeholder="Input transparent"
     />
     <Title name="Input error" />
     <Input
