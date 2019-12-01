@@ -45,7 +45,7 @@ export const Row = ({
   children,
 }) => (
     <View style={styles.row}>
-      <Text style={styles.title}>{title}</Text>
+      <Text style={styles.rowTitle}>{title}</Text>
       <View style={styles.content}>
         {children}
       </View>
@@ -58,7 +58,9 @@ export const Box = ({ value }) => (
   </View>
 );
 
-export const Title = ({ name }) => <Text style={styles.title}>{name}</Text>
+export const Title = ({ name, style }) => (
+  <Text style={[styles.title, style]}>{name}</Text>
+);
 
 const styles = StyleSheet.create({
   layout: {
@@ -76,9 +78,16 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
   },
-  title: {
+  rowTitle: {
     marginBottom: scale(12),
     fontSize: 16,
+    fontWeight: '700',
+  },
+  title: {
+    marginTop: scale(15),
+    marginBottom: scale(5),
+    fontSize: 16,
+    fontWeight: '700',
   },
   screen: {
     textAlign: 'center',

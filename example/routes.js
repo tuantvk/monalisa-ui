@@ -5,6 +5,7 @@ export default [
   "Card",
   "Icon",
   "Input",
+  "Textarea",
   "Text",
   "Row",
   "Col",
