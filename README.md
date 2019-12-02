@@ -31,6 +31,7 @@ React Native UI Library
 - [x] List Item
 - [ ] Switch
 - [x] Tag
+- [x] Divider
 
 
 ## Contributing

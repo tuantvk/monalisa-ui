@@ -20,6 +20,7 @@ import Textarea from './example/Textarea';
 import Button from './example/Button';
 import Spinner from './example/Spinner';
 import ListItem from './example/ListItem';
+import Divider from './example/Divider';
 
 const AppNavigator = createStackNavigator({
   Example: {
@@ -63,6 +64,9 @@ const AppNavigator = createStackNavigator({
   },
   ListItem: {
     screen: ListItem,
+  },
+  Divider: {
+    screen: Divider,
   },
 }, {
   initialRouteName: 'Example',

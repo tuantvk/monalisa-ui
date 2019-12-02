@@ -13,4 +13,5 @@ export default [
   "ListItem",
   "Switch",
   "Tag",
+  "Divider",
 ]
