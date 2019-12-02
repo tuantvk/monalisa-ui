@@ -22,6 +22,7 @@ import Spinner from './example/Spinner';
 import ListItem from './example/ListItem';
 import Divider from './example/Divider';
 import Switch from './example/Switch';
+import Pricing from './example/Pricing';
 
 const AppNavigator = createStackNavigator({
   Example: {
@@ -71,6 +72,9 @@ const AppNavigator = createStackNavigator({
   },
   Switch: {
     screen: Switch,
+  },
+  Pricing: {
+    screen: Pricing,
   },
 }, {
   initialRouteName: 'Example',

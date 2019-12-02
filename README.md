@@ -32,8 +32,7 @@ React Native UI Library
 - [x] Switch
 - [x] Tag
 - [x] Divider
-- [ ] Pricing
-- [ ] Tile
+- [x] Pricing
 - [ ] SocialIcon
 - [ ] Rating
 - [ ] ArticleCard

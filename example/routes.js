@@ -15,7 +15,6 @@ export default [
   "Tag",
   "Divider",
   "Pricing",
-  "Tile",
   "SocialIcon",
   "Rating",
   "ArticleCard",
