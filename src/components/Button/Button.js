@@ -123,7 +123,10 @@ Button.propTypes = {
   loadingColor: PropTypes.string,
   disabled: PropTypes.bool,
   transparent: PropTypes.bool,
-  outline: PropTypes.string,
+  outline: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.bool,
+  ]),
   outlineWidth: PropTypes.number,
   raised: PropTypes.bool,
   iconRight: PropTypes.element,

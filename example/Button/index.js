@@ -9,7 +9,10 @@ import {
   Layout,
   Title,
 } from '../screen';
-import { StyleSheet } from 'react-native';
+import {
+  Text,
+  StyleSheet,
+} from 'react-native';
 import {
   Button,
   ButtonGroup,
@@ -21,6 +24,8 @@ const styles = StyleSheet.create({
     marginVertical: 10,
   }
 });
+
+const ButtonGroupItem = () => <Text>ButtonGroupItem</Text>
 
 export default ({ navigation }) => (
   <Layout navigation={navigation}>
@@ -104,6 +109,16 @@ export default ({ navigation }) => (
       title="Icon"
       outline
       iconRight={<Icon name="checkcircleo" color="#3e50fa" size={20} />}
+    />
+    <Title name="Button group" />
+    <ButtonGroup
+      buttons={['Like', 'Share', 'More']}
+      onPress={index => alert(index)}
+    />
+    <Title name="Button group" />
+    <ButtonGroup
+      buttons={[{ component: ButtonGroupItem }, { component: ButtonGroupItem }]}
+      onPress={index => alert(index)}
     />
   </Layout>
 );

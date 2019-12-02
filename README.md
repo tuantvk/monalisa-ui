@@ -17,7 +17,7 @@ React Native UI Library
 - [x] Avatar
 - [x] Avatar Group
 - [x] Button
-- [ ] Button Group
+- [x] Button Group
 - [x] Card
 - [x] Card Image
 - [x] Icon

@@ -2,8 +2,14 @@
 
 Buttons are touchable elements used to interact with the screen display text, icons.
 
+**Contents:**
+- Button
+- Button Group
 
 View full example: [Button Example](/example/Button/index.js)
+
+
+## Button
 
 ```javascript
 import React from 'react';
@@ -86,3 +92,40 @@ const Example = () => (
 
 export default Example;
 ```
+
+
+## Button Group
+
+```javascript
+import React from 'react';
+import { View, Text } from 'react-native';
+import { ButtonGroup } from 'monalisa-ui';
+
+const ButtonGroupItem = () => <Text>ButtonGroupItem</Text>
+
+const Example = () => (
+  <View>
+    <ButtonGroup
+      buttons={['Like', 'Share', 'More']}
+      onPress={index => alert(index)}
+    />
+    <ButtonGroup
+      buttons={[{ component: ButtonGroupItem }, { component: ButtonGroupItem }]}
+      onPress={index => alert(index)}
+    />
+  </View>
+);
+
+export default Example;
+```
+
+#### Configuration
+
+[Button props...](/docs/Button.md)
+
+| Property      | Default       | Option    | Description  |
+| ------------- |:-------------:|:---------:|:------------:|
+| buttons       | [ ]            | array     | Array of buttons for component **(required)**, { component: componentName } if returning a component |
+| onPress       | -             | function  | Method to update Button Group index |
+| buttonStyle   | -             | -         | Style for the Button |
+| style         | -             | -         | Style for the ButtonGroup |
