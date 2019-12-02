@@ -7,6 +7,7 @@
 import React from 'react';
 import {
   Layout,
+  Title,
 } from '../screen';
 
 export default ({ navigation }) => (

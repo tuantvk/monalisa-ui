@@ -28,7 +28,6 @@ React Native UI Library
 - [x] Row
 - [x] Col
 - [x] Spinner
-- [ ] List
 - [ ] List Item
 - [ ] Switch
 - [x] Tag

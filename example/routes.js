@@ -10,7 +10,6 @@ export default [
   "Row",
   "Col",
   "Spinner",
-  "List",
   "List Item",
   "Switch",
   "Tag",
