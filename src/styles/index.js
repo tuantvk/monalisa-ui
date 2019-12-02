@@ -1,3 +1,4 @@
+export const gray = '#979797';
 export const gray_light = '#dfe1e6';
 export const blue = '#3e50fa';
 export const black = '#000';
