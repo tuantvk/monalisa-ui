@@ -29,9 +29,15 @@ React Native UI Library
 - [x] Col
 - [x] Spinner
 - [x] List Item
-- [ ] Switch
+- [x] Switch
 - [x] Tag
 - [x] Divider
+- [ ] Pricing
+- [ ] Tile
+- [ ] SocialIcon
+- [ ] Rating
+- [ ] ArticleCard
+- [ ] Segment
 
 
 ## Contributing

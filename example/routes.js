@@ -14,4 +14,10 @@ export default [
   "Switch",
   "Tag",
   "Divider",
+  "Pricing",
+  "Tile",
+  "SocialIcon",
+  "Rating",
+  "ArticleCard",
+  "Segment",
 ]

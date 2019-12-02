@@ -21,6 +21,7 @@ import Button from './example/Button';
 import Spinner from './example/Spinner';
 import ListItem from './example/ListItem';
 import Divider from './example/Divider';
+import Switch from './example/Switch';
 
 const AppNavigator = createStackNavigator({
   Example: {
@@ -67,6 +68,9 @@ const AppNavigator = createStackNavigator({
   },
   Divider: {
     screen: Divider,
+  },
+  Switch: {
+    screen: Switch,
   },
 }, {
   initialRouteName: 'Example',
