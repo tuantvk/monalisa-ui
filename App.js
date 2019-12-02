@@ -18,6 +18,7 @@ import Text from './example/Text';
 import Input from './example/Input';
 import Textarea from './example/Textarea';
 import Button from './example/Button';
+import Spinner from './example/Spinner';
 
 const AppNavigator = createStackNavigator({
   Example: {
@@ -55,6 +56,9 @@ const AppNavigator = createStackNavigator({
   },
   Button: {
     screen: Button,
+  },
+  Spinner: {
+    screen: Spinner,
   },
 }, {
   initialRouteName: 'Example',

@@ -27,7 +27,7 @@ React Native UI Library
 - [x] Textarea
 - [x] Row
 - [x] Col
-- [ ] Spinner
+- [x] Spinner
 - [ ] List
 - [ ] List Item
 - [ ] Switch
