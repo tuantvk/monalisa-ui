@@ -36,7 +36,7 @@ React Native UI Library
 - [x] SocialIcon
 - [x] Rating
 - [x] ArticleCard
-- [ ] Segment
+- [x] Segment
 
 
 ## Contributing
