@@ -30,6 +30,7 @@ export default Example;
 | titleStyle            | -             | -         | Style for the title |
 | showTitle             | true          | boolean   | Toggle display title |
 | defaultRating         | none          | number    | Initial value for the rating |
+| onChange              | -             | function  | Return value review |
 
 
 #### Example:

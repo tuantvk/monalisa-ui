@@ -27,6 +27,7 @@ export default Example;
 | bgColor       | #3e50fa       | string    | Custom colors for the switch track |
 | thumbColor    | #fff          | string    | Color of the foreground switch grip |
 | circleStyle   | -             | -         | Style of the thumbColor |
+| onChange      | -             | function  | Return value switch |
 
 #### Example:
 

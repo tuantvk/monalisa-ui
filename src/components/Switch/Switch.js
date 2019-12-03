@@ -96,6 +96,7 @@ Switch.propTypes = {
   height: PropTypes.number,
   bgColor: PropTypes.string,
   thumbColor: PropTypes.string,
+  onChange: PropTypes.func,
 }
 
 

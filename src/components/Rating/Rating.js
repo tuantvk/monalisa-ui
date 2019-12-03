@@ -93,6 +93,7 @@ Rating.propTypes = {
   ratingColor: PropTypes.string,
   ratingBackgroundColor: PropTypes.string,
   showTitle: PropTypes.bool,
+  onChange: PropTypes.func,
 }
 
 
