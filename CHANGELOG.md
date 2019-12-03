@@ -1,5 +1,26 @@
 # CHANGELOG
 
+## Version 0.0.6
+Build: 191203
+
+### Updated
+
+- Add Input component
+- Add Textarea component
+- Add Button component
+- Add Button Group component
+- Add Spinner component
+- Add ListItem component
+- Add Divider component
+- Add Switch component
+- Add Pricing component
+- Add SocialIcon component
+- Add Rating component
+- Add ArticalCard component
+- Add Segment component
+
+
+
 ## Version 0.0.5
 Build: 191201
 
