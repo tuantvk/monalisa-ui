@@ -34,7 +34,7 @@ React Native UI Library
 - [x] Divider
 - [x] Pricing
 - [x] SocialIcon
-- [ ] Rating
+- [x] Rating
 - [ ] ArticleCard
 - [ ] Segment
 

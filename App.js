@@ -24,6 +24,7 @@ import Divider from './example/Divider';
 import Switch from './example/Switch';
 import Pricing from './example/Pricing';
 import SocialIcon from './example/SocialIcon';
+import Rating from './example/Rating';
 
 const AppNavigator = createStackNavigator({
   Example: {
@@ -79,6 +80,9 @@ const AppNavigator = createStackNavigator({
   },
   SocialIcon: {
     screen: SocialIcon,
+  },
+  Rating: {
+    screen: Rating,
   },
 }, {
   initialRouteName: 'Example',
