@@ -25,6 +25,7 @@ import Switch from './example/Switch';
 import Pricing from './example/Pricing';
 import SocialIcon from './example/SocialIcon';
 import Rating from './example/Rating';
+import ArticleCard from './example/ArticleCard';
 
 const AppNavigator = createStackNavigator({
   Example: {
@@ -83,6 +84,9 @@ const AppNavigator = createStackNavigator({
   },
   Rating: {
     screen: Rating,
+  },
+  ArticleCard: {
+    screen: ArticleCard,
   },
 }, {
   initialRouteName: 'Example',
