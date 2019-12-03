@@ -25,7 +25,7 @@ class Segment extends Component {
       <View style={[styles.segment, borderColor]}>
         {React.Children.map(children, child => {
           return React.cloneElement(child, {
-            style: {}
+            style: styles.segmentItem,
           })
         })}
       </View>
@@ -39,8 +39,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     borderRadius: scale(6),
     alignSelf: 'center',
+  },
+  segmentItem: {
     paddingVertical: scale(2),
-    paddingHorizontal: scale(6),
+    paddingHorizontal: scale(20),
+    backgroundColor: blue,
   }
 });
 
