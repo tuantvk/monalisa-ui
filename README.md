@@ -8,6 +8,24 @@
 
 # MonalisaUI
 
+<p align="center">
+  <a href="https://github.com/tuantvk/monalisa-ui/issues">
+    <img src="https://img.shields.io/github/issues/tuantvk/monalisa-ui.svg" alt="issues" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/github/forks/tuantvk/monalisa-ui.svg" alt="forks" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/github/stars/tuantvk/monalisa-ui.svg" alt="stars" />
+  </a>
+  <a href="https://github.com/tuantvk/monalisa-ui/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/tuantvk/monalisa-ui.svg" alt="LICENSE" />
+  </a>
+</p>
+
+[![NPM](https://nodei.co/npm/monalisa-ui.png?downloads=true)](https://nodei.co/npm/monalisa-ui/)
+
+
 React Native UI Library. 
 MonalisaUI is a free and open source UI component library for React Native to build native mobile apps for iOS and Android platforms.
 
