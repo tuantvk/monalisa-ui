@@ -23,6 +23,7 @@ export default Example;
 | h2            | false         | boolean   | Font size 34 |
 | h3            | false         | boolean   | Font size 28 |
 | h4            | false         | boolean   | Font size 22 |
+| h5            | false         | boolean   | Font size 18 |
 | color         | #000          | string    | Set color for the text |
 | bold          | false         | boolean   | Set font weight bold for the text |
 | style         | -             | -         | Style for the text |

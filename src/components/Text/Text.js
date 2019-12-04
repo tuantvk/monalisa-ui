@@ -31,6 +31,7 @@ class Text extends Component {
           h2 && { fontSize: scale(34) },
           h3 && { fontSize: scale(28) },
           h4 && { fontSize: scale(22) },
+          h5 && { fontSize: scale(18) },
           bold && { fontWeight: '700' },
           style,
         ]}>{children}</RNText>
