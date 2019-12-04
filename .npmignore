@@ -1,0 +1,34 @@
+
+# OSX
+#
+.DS_Store
+
+# Node
+#
+node_modules/
+yarn-error.log
+yarn.lock
+
+# Misc
+#
+__tests__/
+.github/
+.vscode/
+android/
+docs/
+example/
+ios/
+src/
+.buckconfig
+.eslintrc.js
+.flowconfig
+.gitattributes
+.prettierrc.js
+.watchmanconfig
+App.js
+app.json
+babel.config.js
+Example.js
+metro.config.js
+react-native-config.js
+publish/
