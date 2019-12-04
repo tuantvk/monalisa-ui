@@ -18,7 +18,6 @@ android/
 docs/
 example/
 ios/
-src/
 .buckconfig
 .eslintrc.js
 .flowconfig
@@ -30,5 +29,6 @@ app.json
 babel.config.js
 Example.js
 metro.config.js
-react-native-config.js
+react-native.config.js
 publish/
+publish.sh

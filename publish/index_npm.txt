@@ -1,4 +1,38 @@
-import * from './src';
+/**
+ * @license
+ * Copyright tuantvk. All Rights Reserved.
+ * Licensed under the MIT License. See License in the project root for license information.
+ */
+
+import { ArticleCard } from './src/components/ArticleCard';
+import {
+  Avatar,
+  AvatarGroup
+} from './src/components/Avatar';
+import { Badge } from './src/components/Badge';
+import {
+  Button,
+  ButtonGroup
+} from './src/components/Button';
+import {
+  Card,
+  CardImage
+} from './src/components/Card';
+import { Col } from './src/components/Col';
+import { Divider } from './src/components/Divider';
+import { Icon } from './src/components/Icon';
+import { Input } from './src/components/Input';
+import { ListItem } from './src/components/ListItem';
+import { Pricing } from './src/components/Pricing';
+import { Rating } from './src/components/Rating';
+import { Row } from './src/components/Row';
+import { Segment } from './src/components/Segment';
+import { SocialIcon } from './src/components/SocialIcon';
+import { Spinner } from './src/components/Spinner';
+import { Switch } from './src/components/Switch';
+import { Tag } from './src/components/Tag';
+import { Text } from './src/components/Text';
+import { Textarea } from './src/components/Textarea';
 
 export {
   ArticleCard,
@@ -8,6 +42,7 @@ export {
   Button,
   ButtonGroup,
   Card,
+  CardImage,
   Col,
   Divider,
   Icon,

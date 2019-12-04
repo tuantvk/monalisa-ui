@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## Version 0.1.0-rc.2
+Build: 191204
+
+### Updated
+  - Update package
+
+
+
 ## Version 0.1.0
 Build: 191204
 

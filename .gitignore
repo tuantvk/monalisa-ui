@@ -59,3 +59,5 @@ buck-out/
 /ios/Pods/
 
 Example.js
+publish/
+publish.sh
