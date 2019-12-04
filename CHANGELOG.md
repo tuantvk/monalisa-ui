@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## Version 0.2.0
+Build: 191204
+
+### Updated
+  - Update index.d.ts :tada:
+  - Update docs Icon link
+  - Update Text component h5
+
+
+
 ## Version 0.1.0-rc.2
 Build: 191204
 
