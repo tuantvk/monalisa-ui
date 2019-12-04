@@ -32,3 +32,4 @@ metro.config.js
 react-native.config.js
 publish/
 publish.sh
+book.json
