@@ -2,7 +2,7 @@
 
 Use this property to center a child horizontally within a container with flexDirection set to row.
 
-View full example: [Row Example](/example/Row/index.js)
+View full example: [Row Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Row/index.js)
 
 ```javascript
 import React from 'react';

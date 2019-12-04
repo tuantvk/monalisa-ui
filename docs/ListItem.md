@@ -3,12 +3,12 @@
 Display rows of information, such as a contact list or  menu. 
 They are very customizeable and can contain avatars, icons, and more.
 
-View full example: [ListItem Example](/example/ListItem/index.js)
+View full example: [ListItem Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/ListItem/index.js)
 
 ```javascript
 import React from 'react';
 import { View } from 'react-native';
-import { Text } from 'monalisa-ui';
+import { ListItem } from 'monalisa-ui';
 
 const Example = () => (
   <View>

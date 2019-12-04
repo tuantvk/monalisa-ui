@@ -2,7 +2,7 @@
 
 Displays a circular loading indicator.
 
-View full example: [Spinner Example](/example/Spinner/index.js)
+View full example: [Spinner Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Spinner/index.js)
 
 
 ```javascript

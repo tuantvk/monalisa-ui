@@ -2,7 +2,7 @@
 
 Displays social media networks.
 
-View full example: [SocialIcon Example](/example/SocialIcon/index.js)
+View full example: [SocialIcon Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/SocialIcon/index.js)
 
 ```javascript
 import React from 'react';

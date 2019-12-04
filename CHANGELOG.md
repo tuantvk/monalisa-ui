@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## Version 0.1.0
+Build: 191204
+
+### Updated
+  - First release package :tada:
+
+
+
 ## Version 0.0.6
 Build: 191203
 

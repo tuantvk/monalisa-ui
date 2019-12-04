@@ -1,12 +1,13 @@
 {
   "name": "monalisa-ui",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "React Native UI Library",
   "private": true,
   "author": {
     "name": "tuantvk",
     "url": "https://tuantvk.github.io"
   },
+  "homepage": "https://tuantvk.gitbook.io/monalisaui/",
   "repository": {
     "type": "git",
     "url": "https://github.com/tuantvk/monalisa-ui",

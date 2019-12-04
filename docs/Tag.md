@@ -2,7 +2,7 @@
 
 This component displays as a tag with an optional button to remove the given tag.
 
-View full example: [Tag Example](/example/Tag/index.js)
+View full example: [Tag Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Tag/index.js)
 
 ```javascript
 import React from 'react';

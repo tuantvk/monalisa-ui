@@ -3,7 +3,7 @@
 Inputs allow users to enter text into a UI.
 
 
-View full example: [Textarea Example](/example/Textarea/index.js)
+View full example: [Textarea Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Textarea/index.js)
 
 ```javascript
 import React from 'react';

@@ -2,7 +2,7 @@
 
 Renders a boolean input.
 
-View full example: [Switch Example](/example/Switch/index.js)
+View full example: [Switch Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Switch/index.js)
 
 ```javascript
 import React from 'react';

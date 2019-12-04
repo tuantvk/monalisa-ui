@@ -6,7 +6,7 @@ Buttons are touchable elements used to interact with the screen display text, ic
 - Button
 - Button Group
 
-View full example: [Button Example](/example/Button/index.js)
+View full example: [Button Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Button/index.js)
 
 
 ## Button

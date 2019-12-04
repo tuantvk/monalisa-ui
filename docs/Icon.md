@@ -4,7 +4,7 @@ Perfect, crisp, high definition icons and pixel ideal fonts.
 
 Here is a repo that lists down icons of available [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) icon families.
 
-View full example: [Icon Example](/example/Icon/index.js)
+View full example: [Icon Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Icon/index.js)
 
 
 #### Configuration

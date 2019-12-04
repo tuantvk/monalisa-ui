@@ -2,7 +2,7 @@
 
 Badges are small components typically used to communicate a numerical value.
 
-View full example: [Badge Example](/example/Badge/index.js)
+View full example: [Badge Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Badge/index.js)
 
 
 ```javascript

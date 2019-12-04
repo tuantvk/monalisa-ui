@@ -2,7 +2,7 @@
 
 Build awesome article card for your blog articles quickly.
 
-View full example: [ArticleCard Example](/example/ArticleCard/index.js)
+View full example: [ArticleCard Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/ArticleCard/index.js)
 
 ```javascript
 import React from 'react';

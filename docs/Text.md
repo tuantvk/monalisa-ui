@@ -2,7 +2,7 @@
 
 Text displays words and characters at various sizes.
 
-View full example: [Text Example](/example/Text/index.js)
+View full example: [Text Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Text/index.js)
 
 ```javascript
 import React from 'react';

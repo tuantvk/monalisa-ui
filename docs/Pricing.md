@@ -2,7 +2,7 @@
 
 Pricing is a component used to display features and pricing tables.
 
-View full example: [Pricing Example](/example/Pricing/index.js)
+View full example: [Pricing Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Pricing/index.js)
 
 ```javascript
 import React from 'react';

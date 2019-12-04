@@ -2,7 +2,7 @@
 
 Dividers are visual separators of content.
 
-View full example: [Divider Example](/example/Divider/index.js)
+View full example: [Divider Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Divider/index.js)
 
 
 ```javascript

@@ -2,7 +2,7 @@
 
 Segments are best used as an alternative for tabs.
 
-View full example: [Segment Example](/example/Segment/index.js)
+View full example: [Segment Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Segment/index.js)
 
 ```javascript
 import React from 'react';

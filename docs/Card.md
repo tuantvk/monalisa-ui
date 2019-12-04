@@ -7,7 +7,7 @@ Cards can contain images, text and more.
 - Card
 - Card Image
 
-View full example: [Card Example](/example/Card/index.js)
+View full example: [Card Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Card/index.js)
 
 ## Card
 

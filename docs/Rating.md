@@ -2,7 +2,7 @@
 
 Ratings are used to collect measurable feedback from users.
 
-View full example: [Rating Example](/example/Rating/index.js)
+View full example: [Rating Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Rating/index.js)
 
 ```javascript
 import React from 'react';

@@ -3,7 +3,7 @@
 Inputs allow users to enter text into a UI.
 
 
-View full example: [Input Example](/example/Input/index.js)
+View full example: [Input Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Input/index.js)
 
 ```javascript
 import React from 'react';
