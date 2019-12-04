@@ -1,3 +1,9 @@
+/**
+ * @license
+ * Copyright tuantvk. All Rights Reserved.
+ * Licensed under the MIT License. See License in the project root for license information.
+ */
+
 declare module "monalisa-ui" {
   import * as React from "react";
   import * as ReactNative from "react-native";
@@ -179,6 +185,64 @@ declare module "monalisa-ui" {
       children?: React.ReactElement<any>;
     }
 
+
+    interface SocialIcon extends Testable {
+      type?: "github" | "facebook" | "youtube" | "instagram" | "twitter" | "pinterest" | "linkedin" | "vimeo";
+      raised?: boolean;
+      light?: boolean;
+      style?: RNViewStyleProp;
+      height?: number;
+    }
+
+
+    interface Spinner extends Testable {
+      bgColor?: string;
+      title?: string;
+      style?: RNViewStyleProp;
+      titleStyle?: RNTextStyleProp;
+      spinnerStyle?: RNViewStyleProp;
+    }
+
+
+    interface Switch extends Testable {
+      style?: RNViewStyleProp;
+      height?: number;
+      bgColor?: string;
+      thumbColor?: string;
+      circleStyle?: RNViewStyleProp;
+    }
+
+
+    interface Tag extends Testable {
+      text?: string;
+      style?: RNViewStyleProp;
+      color?: string;
+      bgColor?: string;
+      iconLeft?: React.ReactElement<any>;
+      iconRight?: React.ReactElement<any>;
+      size?: number;
+    }
+
+
+    interface Text extends Testable {
+      style?: RNTextStyleProp;
+      h1?: boolean;
+      h2?: boolean;
+      h3?: boolean;
+      h4?: boolean;
+      h5?: boolean;
+      children?: string | number | React.ReactElement<any>;
+      color?: string;
+      bold?: boolean;
+    }
+    
+
+    interface Textarea extends Testable {
+      style?: RNViewStyleProp;
+      height?: number;
+      rounded?: boolean;
+      borderColor?: string;
+    }
   }
 
 }
@@ -273,3 +337,39 @@ export class Row extends React.Component<MonalisaUI.Row, any> { }
 MonalisaUI.Segment
 */
 export class Segment extends React.Component<MonalisaUI.Segment, any> { }
+
+
+/** 
+MonalisaUI.SocialIcon
+*/
+export class SocialIcon extends React.Component<MonalisaUI.SocialIcon, any> { }
+
+
+/** 
+MonalisaUI.Spinner
+*/
+export class Spinner extends React.Component<MonalisaUI.Spinner, any> { }
+
+
+/** 
+MonalisaUI.Switch
+*/
+export class Spinner extends React.Component<MonalisaUI.Switch, any> { }
+
+
+/** 
+MonalisaUI.Tag
+*/
+export class Tag extends React.Component<MonalisaUI.Tag, any> { }
+
+
+/** 
+MonalisaUI.Text
+*/
+export class Text extends React.Component<MonalisaUI.Text, any> { }
+
+
+/** 
+MonalisaUI.Textarea
+*/
+export class Textarea extends React.Component<MonalisaUI.Textarea, any> { }

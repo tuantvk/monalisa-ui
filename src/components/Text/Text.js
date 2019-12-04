@@ -16,7 +16,7 @@ class Text extends Component {
   render() {
     const {
       style,
-      h1, h2, h3, h4,
+      h1, h2, h3, h4, h5,
       children,
       color,
       bold,

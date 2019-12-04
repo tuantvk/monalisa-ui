@@ -4,6 +4,32 @@ Perfect, crisp, high definition icons and pixel ideal fonts.
 
 Here is a repo that lists down icons of available [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) icon families.
 
+
+```bash
+yarn add react-native-vector-icons
+
+# or
+# npm i --save react-native-vector-icons
+```
+
+> You need to follow below steps in order to work with RN>=0.60
+>
+> Now back to root folder and create a file named `react-native.config.js` in root of your project and add below code in this file.
+
+```javascript
+// react-native.config.js
+module.exports = {
+    assets: ['react-native-vector-icons']
+};
+```
+
+And finally run
+
+```bash
+yarn react-native link
+```
+
+
 View full example: [Icon Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Icon/index.js)
 
 
