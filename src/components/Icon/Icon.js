@@ -105,7 +105,7 @@ Icon.propTypes = {
   ]),
   ios: PropTypes.string,
   android: PropTypes.string,
-  name: PropTypes.string,
+  name: PropTypes.string.isRequired,
 }
 
 export default Icon;
