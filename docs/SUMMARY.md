@@ -12,6 +12,7 @@
 * [Input](Input.md)
 * [ListItem](ListItem.md)
 * [Pricing](Pricing.md)
+* [ProgressBar](ProgressBar.md)
 * [Rating](Rating.md)
 * [Row](Row.md)
 * [Segment](Segment.md)
