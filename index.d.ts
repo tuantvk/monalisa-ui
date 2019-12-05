@@ -161,6 +161,18 @@ declare module "monalisa-ui" {
     }
 
 
+    interface ProgressBar extends Testable {
+      height?: number;
+      borderColor?: string;
+      bgColor?: string;
+      borderRadius?: any;
+      borderWidth?: number;
+      value?: string | number;
+      style?: RNViewStyleProp;
+      children?: React.ReactElement<any>;
+    }
+
+
     interface Rating extends Testable {
       reviews?: Array<string>;
       size?: number;
@@ -323,6 +335,12 @@ export class ListItem extends React.Component<MonalisaUI.ListItem, any> { }
 MonalisaUI.Pricing
 */
 export class Pricing extends React.Component<MonalisaUI.Pricing, any> { }
+
+
+/** 
+MonalisaUI.ProgressBar
+*/
+export class ProgressBar extends React.Component<MonalisaUI.ProgressBar, any> { }
 
 
 /** 

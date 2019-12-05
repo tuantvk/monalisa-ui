@@ -10,6 +10,7 @@ export default [
   "Input",
   "ListItem",
   "Pricing",
+  "ProgressBar",
   "Rating",
   "Row",
   "Segment",

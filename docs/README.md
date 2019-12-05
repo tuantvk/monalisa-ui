@@ -56,6 +56,7 @@ npm install --save monalisa-ui
 - [Input](https://tuantvk.gitbook.io/monalisaui/input)
 - [ListItem](https://tuantvk.gitbook.io/monalisaui/listitem)
 - [Pricing](https://tuantvk.gitbook.io/monalisaui/pricing)
+- [ProgressBar](https://tuantvk.gitbook.io/monalisaui/ProgressBar)
 - [Rating](https://tuantvk.gitbook.io/monalisaui/rating)
 - [Row](https://tuantvk.gitbook.io/monalisaui/row)
 - [Segment](https://tuantvk.gitbook.io/monalisaui/segment)
