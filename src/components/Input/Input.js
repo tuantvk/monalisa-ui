@@ -12,7 +12,10 @@ import {
   TextInput,
 } from 'react-native';
 import PropTypes from 'prop-types';
-import { gray_light } from '../../styles';
+import {
+  gray_light,
+} from '../../styles';
+import { scale } from '../../utils';
 
 class Input extends Component {
   render() {
@@ -35,15 +38,21 @@ class Input extends Component {
           styles.content,
           !transparent && styles.borderBottom
         ]}>
-          {leftIcon}
+          {leftIcon && React.cloneElement(leftIcon,
+            { style: styles.icon }
+          )}
           <TextInput
             {...rest}
             style={[
               styles.input,
+              leftIcon && styles.inputLeftIcon,
+              rightIcon && styles.inputRightIcon,
               style,
             ]}
           />
-          {rightIcon}
+          {rightIcon && React.cloneElement(rightIcon,
+            { style: [styles.icon, styles.rightIcon] }
+          )}
         </View>
         {error && <Text style={errorStyle}>{error}</Text>}
       </View>
@@ -75,6 +84,18 @@ const styles = StyleSheet.create({
   borderBottom: {
     borderBottomColor: gray_light,
     borderBottomWidth: 1,
+  },
+  icon: {
+    position: 'absolute',
+  },
+  rightIcon: {
+    right: 0,
+  },
+  inputLeftIcon: {
+    marginLeft: scale(25),
+  },
+  inputRightIcon: {
+    paddingRight: scale(22),
   }
 });
 

@@ -120,7 +120,7 @@ declare module "monalisa-ui" {
     }
 
 
-    interface Input extends Testable {
+    interface Input extends ReactNative.TextInputProps, Testable {
       leftIcon?: React.ReactElement<any>;
       rightIcon?: React.ReactElement<any>;
       transparent?: boolean;
@@ -240,7 +240,7 @@ declare module "monalisa-ui" {
     }
 
 
-    interface Textarea extends Testable {
+    interface Textarea extends ReactNative.TextInputProps, Testable {
       style?: RNViewStyleProp;
       height?: number;
       rounded?: boolean;
