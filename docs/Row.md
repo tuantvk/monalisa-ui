@@ -26,7 +26,8 @@ export default Example;
 
 | Property      | Default       | Option    | Description  |
 | ------------- |:-------------:|:---------:|:------------:|
-| content       | flex-start    | string    | Describes how to align children within the main axis of their container. [justifyContent](https://facebook.github.io/react-native/docs/layout-props#justifycontent) |
+| content       | flex-start    | string    | Describes how to align children within the main axis of their container. ('flex-start', 'flex-end', 'center', 'space-between', 'space-around', 'space-evenly') |
+| alignItems    | stretch       | string    | Aligns children in the cross direction. ('flex-start', 'flex-end', 'center', 'stretch', 'baseline') |
 | style         | -             | -         | Style for the row |
 
 

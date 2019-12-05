@@ -20,7 +20,7 @@ declare module "monalisa-ui" {
 
     interface ViewContentProp extends Testable {
       style?: RNViewStyleProp;
-      content?: "flex-start" | "flex-end" | "center" | "space-between" | "space-around" | "space-evenly";
+      alignItems?: "flex-start" | "flex-end" | "center" | "stretch" | "baseline";
       children?: React.ReactElement<any>;
     }
 
@@ -102,7 +102,7 @@ declare module "monalisa-ui" {
 
 
     interface Col extends ViewContentProp {
-
+      content?: "column" | "column-reverse";
     }
 
 
@@ -167,12 +167,14 @@ declare module "monalisa-ui" {
       ratingColor?: string;
       ratingBackgroundColor?: string;
       titleStyle?: RNTextStyleProp;
+      iconStyle?: RNViewStyleProp;
       showTitle?: boolean;
+      defaultRating?: number;
     }
 
 
     interface Row extends ViewContentProp {
-
+      content?: "flex-start" | "flex-end" | "center" | "space-between" | "space-around" | "space-evenly";
     }
 
 
@@ -183,6 +185,7 @@ declare module "monalisa-ui" {
       colorUnactive?: string;
       style?: RNViewStyleProp;
       children?: React.ReactElement<any>;
+      defaultValue?: number;
     }
 
 
@@ -235,7 +238,7 @@ declare module "monalisa-ui" {
       color?: string;
       bold?: boolean;
     }
-    
+
 
     interface Textarea extends Testable {
       style?: RNViewStyleProp;

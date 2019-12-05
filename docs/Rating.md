@@ -28,6 +28,7 @@ export default Example;
 | ratingColor           | #979797       | string    | Color for the rating icon |
 | ratingBackgroundColor | #f1c40f       | string    | Background color for the rating icon |
 | titleStyle            | -             | -         | Style for the title |
+| iconStyle             | -             | -         | Style for the icon |
 | showTitle             | true          | boolean   | Toggle display title |
 | defaultRating         | none          | number    | Initial value for the rating |
 | onChange              | -             | function  | Return value review |
