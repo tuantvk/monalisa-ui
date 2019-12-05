@@ -12,10 +12,10 @@
   <a href="https://github.com/tuantvk/monalisa-ui/issues">
     <img src="https://img.shields.io/github/issues/tuantvk/monalisa-ui.svg" alt="issues" />
   </a>
-  <a href="#">
+  <a href="https://github.com/tuantvk/monalisa-ui">
     <img src="https://img.shields.io/github/forks/tuantvk/monalisa-ui.svg" alt="forks" />
   </a>
-  <a href="#">
+  <a href="https://github.com/tuantvk/monalisa-ui">
     <img src="https://img.shields.io/github/stars/tuantvk/monalisa-ui.svg" alt="stars" />
   </a>
   <a href="https://github.com/tuantvk/monalisa-ui/blob/master/LICENSE">
