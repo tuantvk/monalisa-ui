@@ -42,8 +42,8 @@ export default ({ navigation }) => (
     />
     <Title name="ListItem icon" />
     <ListItem
-      title="Filomena Casper"
-      subTitle="United States of America"
+      title="Lorem Ipsum is simply dummy text of the printing and typesetting"
+      subTitle="It is a long established fact that a reader will be distracted and typesetting"
       left={<Icon name="picture" size={24} />}
       right={<Icon name="staro" size={24} />}
     />
@@ -52,6 +52,7 @@ export default ({ navigation }) => (
       subTitle="United States of America"
       left={<Icon name="shoppingcart" size={24} />}
       right={<Icon name="staro" size={24} />}
+      footer={<Icon name="doubleright" size={22} />}
     />
     <Title name="ListItem no border" />
     <ListItem

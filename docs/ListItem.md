@@ -35,6 +35,7 @@ export default Example;
 | subTitle      | -             | string    | Subtitle text |
 | left          | -             | element   | Display left component |
 | right         | -             | element   | Display right component |
+| footer        | -             | element   | Display footer component |
 | titleStyle    | -             | -         | Style for the title |
 | subTitleStyle | -             | -         | Style for the subTitle |
 | style         | -             | -         | Style for the ListItem |

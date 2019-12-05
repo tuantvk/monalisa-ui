@@ -143,6 +143,7 @@ declare module "monalisa-ui" {
       avatar?: ReactNative.ImageSourcePropType;
       avatarStyle?: ReactNative.ImageStyle;
       border?: boolean;
+      footer?: React.ReactElement<any>;
     }
 
 
