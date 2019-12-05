@@ -31,6 +31,7 @@ class ListItem extends Component {
       avatar,
       avatarStyle,
       border,
+      footer,
     } = this.props;
 
     return (
@@ -56,9 +57,10 @@ class ListItem extends Component {
               style={[styles.avatar, avatarStyle]}
             />
           }
-          <View>
+          <View style={styles.content}>
             <Text style={[styles.title, titleStyle]}>{title}</Text>
             <Text style={[styles.subTitle, subTitleStyle]}>{subTitle}</Text>
+            {footer}
           </View>
         </View>
         {right}
@@ -73,6 +75,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingVertical: scale(8),
+  },
+  content: {
+    flexGrow: 0.92,
+    width: 0,
   },
   border: {
     borderBottomColor: gray_light,
@@ -104,6 +110,7 @@ ListItem.propTypes = {
   left: PropTypes.element,
   right: PropTypes.element,
   border: PropTypes.bool,
+  footer: PropTypes.element,
 }
 
 

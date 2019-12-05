@@ -14,11 +14,15 @@ class Col extends Component {
       style,
       content,
       children,
+      alignItems,
     } = this.props;
 
     return (
       <View style={[
-        { flexDirection: content },
+        {
+          flexDirection: content,
+          alignItems,
+        },
         style,
       ]}>
         {children}
@@ -29,10 +33,16 @@ class Col extends Component {
 
 Col.defaultProps = {
   content: 'column',
+  alignItems: 'stretch',
 }
 
 Col.propTypes = {
-  content: PropTypes.string,
+  content: PropTypes.oneOf([
+    'column', 'column-reverse',
+  ]),
+  alignItems: PropTypes.oneOf([
+    'flex-start', 'flex-end', 'center', 'stretch', 'baseline',
+  ]),
 }
 
 export default Col;

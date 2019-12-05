@@ -27,6 +27,7 @@ import SocialIcon from './example/SocialIcon';
 import Rating from './example/Rating';
 import ArticleCard from './example/ArticleCard';
 import Segment from './example/Segment';
+import ProgressBar from './example/ProgressBar';
 
 const AppNavigator = createStackNavigator({
   Example: {
@@ -91,6 +92,9 @@ const AppNavigator = createStackNavigator({
   },
   Segment: {
     screen: Segment,
+  },
+  ProgressBar: {
+    screen: ProgressBar,
   },
 }, {
   initialRouteName: 'Example',

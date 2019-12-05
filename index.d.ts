@@ -20,7 +20,7 @@ declare module "monalisa-ui" {
 
     interface ViewContentProp extends Testable {
       style?: RNViewStyleProp;
-      content?: "flex-start" | "flex-end" | "center" | "space-between" | "space-around" | "space-evenly";
+      alignItems?: "flex-start" | "flex-end" | "center" | "stretch" | "baseline";
       children?: React.ReactElement<any>;
     }
 
@@ -102,7 +102,7 @@ declare module "monalisa-ui" {
 
 
     interface Col extends ViewContentProp {
-
+      content?: "column" | "column-reverse";
     }
 
 
@@ -120,7 +120,7 @@ declare module "monalisa-ui" {
     }
 
 
-    interface Input extends Testable {
+    interface Input extends ReactNative.TextInputProps, Testable {
       leftIcon?: React.ReactElement<any>;
       rightIcon?: React.ReactElement<any>;
       transparent?: boolean;
@@ -143,6 +143,7 @@ declare module "monalisa-ui" {
       avatar?: ReactNative.ImageSourcePropType;
       avatarStyle?: ReactNative.ImageStyle;
       border?: boolean;
+      footer?: React.ReactElement<any>;
     }
 
 
@@ -160,6 +161,18 @@ declare module "monalisa-ui" {
     }
 
 
+    interface ProgressBar extends Testable {
+      height?: number;
+      borderColor?: string;
+      bgColor?: string;
+      borderRadius?: any;
+      borderWidth?: number;
+      value?: string | number;
+      style?: RNViewStyleProp;
+      children?: React.ReactElement<any>;
+    }
+
+
     interface Rating extends Testable {
       reviews?: Array<string>;
       size?: number;
@@ -167,12 +180,14 @@ declare module "monalisa-ui" {
       ratingColor?: string;
       ratingBackgroundColor?: string;
       titleStyle?: RNTextStyleProp;
+      iconStyle?: RNViewStyleProp;
       showTitle?: boolean;
+      defaultRating?: number;
     }
 
 
     interface Row extends ViewContentProp {
-
+      content?: "flex-start" | "flex-end" | "center" | "space-between" | "space-around" | "space-evenly";
     }
 
 
@@ -183,6 +198,7 @@ declare module "monalisa-ui" {
       colorUnactive?: string;
       style?: RNViewStyleProp;
       children?: React.ReactElement<any>;
+      defaultValue?: number;
     }
 
 
@@ -235,9 +251,9 @@ declare module "monalisa-ui" {
       color?: string;
       bold?: boolean;
     }
-    
 
-    interface Textarea extends Testable {
+
+    interface Textarea extends ReactNative.TextInputProps, Testable {
       style?: RNViewStyleProp;
       height?: number;
       rounded?: boolean;
@@ -319,6 +335,12 @@ export class ListItem extends React.Component<MonalisaUI.ListItem, any> { }
 MonalisaUI.Pricing
 */
 export class Pricing extends React.Component<MonalisaUI.Pricing, any> { }
+
+
+/** 
+MonalisaUI.ProgressBar
+*/
+export class ProgressBar extends React.Component<MonalisaUI.ProgressBar, any> { }
 
 
 /** 

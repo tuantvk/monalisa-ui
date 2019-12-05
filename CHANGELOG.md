@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## Version 0.2.1
+Build: 191205
+
+### Updated
+  - Add ProgressBar component
+
+### Fixed
+  - Update Col, Row, Rating proptypes, warning reviews
+  - Input, Textarea docs add RNTextInput prop, Fix Input icon absolute
+  - Fix ListItem break line title, subTitle when so long, add prop footer
+
+
+
 ## Version 0.2.0
 Build: 191204
 

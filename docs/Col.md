@@ -26,6 +26,7 @@ export default Example;
 | Property      | Default       | Option    | Description  |
 | ------------- |:-------------:|:---------:|:------------:|
 | content       | column        | string    | Align children from top to bottom |
+| alignItems    | stretch       | string    | Aligns children in the cross direction |
 | style         | -             | -         | Style for the col |
 
 

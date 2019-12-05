@@ -31,5 +31,6 @@ Example.js
 metro.config.js
 react-native.config.js
 publish/
+publish_npm/
 publish.sh
 book.json

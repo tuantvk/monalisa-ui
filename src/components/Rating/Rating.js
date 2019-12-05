@@ -42,6 +42,7 @@ class Rating extends Component {
       ratingBackgroundColor,
       titleStyle,
       showTitle,
+      iconStyle,
     } = this.props;
 
     return (
@@ -55,6 +56,7 @@ class Rating extends Component {
                   color={index <= rating ? ratingBackgroundColor : ratingColor}
                   name={index <= rating ? "star" : "staro"}
                   size={size}
+                  style={iconStyle}
                 />
               </TouchableOpacity>
             ))
@@ -87,7 +89,7 @@ Rating.defaultProps = {
 }
 
 Rating.propTypes = {
-  reviews: PropTypes.arrayOf([PropTypes.string]),
+  reviews: PropTypes.arrayOf(PropTypes.string),
   size: PropTypes.number,
   defaultRating: PropTypes.number,
   ratingColor: PropTypes.string,

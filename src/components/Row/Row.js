@@ -16,13 +16,17 @@ class Row extends Component {
     const {
       style,
       content,
+      alignItems,
       children,
     } = this.props;
 
     return (
       <View style={[
         styles.row,
-        { justifyContent: content },
+        {
+          justifyContent: content,
+          alignItems,
+        },
         style,
       ]}>
         {children}
@@ -38,11 +42,17 @@ const styles = StyleSheet.create({
 });
 
 Row.propTypes = {
-  content: PropTypes.string,
+  content: PropTypes.oneOf([
+    'flex-start', 'flex-end', 'center', 'space-between', 'space-around', 'space-evenly',
+  ]),
+  alignItems: PropTypes.oneOf([
+    'flex-start', 'flex-end', 'center', 'stretch', 'baseline',
+  ]),
 }
 
 Row.defaultProps = {
   content: 'flex-start',
+  alignItems: 'stretch',
 }
 
 export default Row;

@@ -12,10 +12,10 @@
   <a href="https://github.com/tuantvk/monalisa-ui/issues">
     <img src="https://img.shields.io/github/issues/tuantvk/monalisa-ui.svg" alt="issues" />
   </a>
-  <a href="#">
+  <a href="https://github.com/tuantvk/monalisa-ui">
     <img src="https://img.shields.io/github/forks/tuantvk/monalisa-ui.svg" alt="forks" />
   </a>
-  <a href="#">
+  <a href="https://github.com/tuantvk/monalisa-ui/">
     <img src="https://img.shields.io/github/stars/tuantvk/monalisa-ui.svg" alt="stars" />
   </a>
   <a href="https://github.com/tuantvk/monalisa-ui/blob/master/LICENSE">
@@ -56,6 +56,7 @@ npm install --save monalisa-ui
 - [Input](https://tuantvk.gitbook.io/monalisaui/input)
 - [ListItem](https://tuantvk.gitbook.io/monalisaui/listitem)
 - [Pricing](https://tuantvk.gitbook.io/monalisaui/pricing)
+- [ProgressBar](https://tuantvk.gitbook.io/monalisaui/ProgressBar)
 - [Rating](https://tuantvk.gitbook.io/monalisaui/rating)
 - [Row](https://tuantvk.gitbook.io/monalisaui/row)
 - [Segment](https://tuantvk.gitbook.io/monalisaui/segment)
