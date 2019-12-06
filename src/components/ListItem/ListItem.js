@@ -7,9 +7,9 @@
 import React, { Component } from 'react';
 import {
   View,
-  Text,
   StyleSheet,
 } from 'react-native';
+import { Text } from '../Text';
 import PropTypes from 'prop-types';
 import {
   gray,
@@ -17,6 +17,7 @@ import {
 } from '../../styles';
 import { scale } from '../../utils';
 import { Avatar } from '../Avatar';
+import { withStyle } from '../../theme';
 
 class ListItem extends Component {
   render() {
@@ -114,4 +115,4 @@ ListItem.propTypes = {
 }
 
 
-export default ListItem;
+export default withStyle(ListItem);

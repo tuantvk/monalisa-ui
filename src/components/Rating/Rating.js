@@ -7,10 +7,10 @@
 import React, { Component } from 'react';
 import {
   View,
-  Text,
   StyleSheet,
   TouchableOpacity,
 } from 'react-native';
+import { Text } from '../Text';
 import PropTypes from 'prop-types';
 import Icon from 'react-native-vector-icons/AntDesign';
 import { scale } from '../../utils';
@@ -18,6 +18,7 @@ import {
   gray,
   yellow,
 } from '../../styles';
+import { withStyle } from '../../theme';
 
 class Rating extends Component {
   constructor(props) {
@@ -99,4 +100,4 @@ Rating.propTypes = {
 }
 
 
-export default Rating;
+export default withStyle(Rating);

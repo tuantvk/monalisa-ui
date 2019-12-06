@@ -7,9 +7,9 @@
 import React, { Component } from 'react';
 import {
   View,
-  Text,
   StyleSheet,
 } from 'react-native';
+import { Text } from '../Text';
 import PropTypes from 'prop-types';
 import {
   black,
@@ -18,6 +18,7 @@ import {
 } from '../../styles';
 import { scale } from '../../utils';
 import { Button } from '../Button';
+import { withStyle } from '../../theme';
 
 class Pricing extends Component {
   render() {
@@ -85,4 +86,4 @@ Pricing.propTypes = {
 }
 
 
-export default Pricing;
+export default withStyle(Pricing);

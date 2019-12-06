@@ -7,16 +7,17 @@
 import React, { Component } from 'react';
 import {
   View,
-  Text,
   ActivityIndicator,
   StyleSheet,
 } from 'react-native';
+import { Text } from '../Text';
 import PropTypes from 'prop-types';
 import {
   blue,
   white,
 } from '../../styles';
 import { scale } from '../../utils';
+import { withStyle } from '../../theme';
 
 class Spinner extends Component {
   render() {
@@ -63,4 +64,4 @@ Spinner.propTypes = {
 }
 
 
-export default Spinner;
+export default withStyle(Spinner);

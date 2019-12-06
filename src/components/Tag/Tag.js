@@ -8,15 +8,16 @@ import React, { Component } from 'react';
 import {
   View,
   TouchableOpacity,
-  Text,
   StyleSheet,
 } from 'react-native';
+import { Text } from '../Text';
 import PropTypes from 'prop-types';
 import {
   gray_light,
   black,
 } from '../../styles';
 import { scale } from '../../utils';
+import { withStyle } from '../../theme';
 
 class Tag extends Component {
   render() {
@@ -79,4 +80,4 @@ Tag.propTypes = {
 }
 
 
-export default Tag;
+export default withStyle(Tag);

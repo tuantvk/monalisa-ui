@@ -11,23 +11,24 @@ import {
 } from '../screen';
 import { ArticleCard } from '../../src/components/ArticleCard';
 
+const image = 'http://lorempixel.com/640/480/nightlife/';
 const datas = [
   {
-    img: 'http://lorempixel.com/640/480/abstract',
+    img: image,
     title: 'Et saepe in aut voluptates illum eum laudantium ipsam similique.',
     category: 'Aut voluptatem dicta',
     author: 'Dr. Ida Marvin',
     time: '21 min ago',
   },
   {
-    img: 'http://lorempixel.com/640/480/abstract',
+    img: image,
     title: 'Et saepe in aut voluptates illum eum laudantium ipsam similique.',
     category: 'Aut voluptatem dicta',
     author: 'Dr. Ida Marvin',
     time: '21 min ago',
   },
   {
-    img: 'http://lorempixel.com/640/480/abstract',
+    img: image,
     title: 'Et saepe in aut voluptates illum eum laudantium ipsam similique.',
     category: 'Aut voluptatem dicta',
     author: 'Dr. Ida Marvin',

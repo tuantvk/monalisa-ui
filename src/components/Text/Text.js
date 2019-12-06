@@ -11,6 +11,7 @@ import {
 import PropTypes from 'prop-types';
 import { black } from '../../styles';
 import { scale } from '../../utils';
+import { withStyle } from '../../theme';
 
 class Text extends Component {
   render() {
@@ -57,4 +58,4 @@ Text.propTypes = {
   bold: PropTypes.bool,
 }
 
-export default Text;
+export default withStyle(Text);

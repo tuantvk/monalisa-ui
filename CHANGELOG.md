@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## Version 0.2.2
+Build: 191206
+
+### Updated
+  - #7 Feature Theme Custom Component
+
+
+
 ## Version 0.2.1
 Build: 191205
 

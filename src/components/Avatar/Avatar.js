@@ -9,10 +9,11 @@ import {
   Image,
   View,
   StyleSheet,
-  Text,
 } from 'react-native';
+import { Text } from '../Text';
 import { gray_light } from '../../styles';
 import PropTypes from 'prop-types';
+import { withStyle } from '../../theme';
 
 class Avatar extends Component {
   render() {
@@ -76,4 +77,4 @@ Avatar.defaultProps = {
   value: '',
 }
 
-export default Avatar;
+export default withStyle(Avatar);

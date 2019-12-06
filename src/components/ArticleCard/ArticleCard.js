@@ -7,11 +7,11 @@
 import React, { Component } from 'react';
 import {
   View,
-  Text,
   Image,
   StyleSheet,
   TouchableOpacity,
 } from 'react-native';
+import { Text } from '../Text';
 import PropTypes from 'prop-types';
 import {
   wScale,
@@ -21,6 +21,7 @@ import {
   gray,
   blue,
 } from '../../styles';
+import { withStyle } from '../../theme';
 
 class ArticleCard extends Component {
   render() {
@@ -102,4 +103,4 @@ ArticleCard.propTypes = {
 }
 
 
-export default ArticleCard;
+export default withStyle(ArticleCard);

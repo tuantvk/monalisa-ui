@@ -5,15 +5,14 @@
  */
 
 import React, { Component } from 'react';
-import {
-  View,
-  Text,
-} from 'react-native';
+import { View, } from 'react-native';
+import { Text } from '../Text';
 import {
   blue,
   white,
 } from '../../styles';
 import PropTypes from 'prop-types';
+import { withStyle } from '../../theme';
 
 class Badge extends Component {
   render() {
@@ -55,4 +54,4 @@ Badge.propTypes = {
   value: PropTypes.string,
 }
 
-export default Badge;
+export default withStyle(Badge);

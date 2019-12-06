@@ -7,15 +7,16 @@
 import React, { Component } from 'react';
 import {
   View,
-  Text,
   StyleSheet,
   TextInput,
 } from 'react-native';
+import { Text } from '../Text';
 import PropTypes from 'prop-types';
 import {
   gray_light,
 } from '../../styles';
 import { scale } from '../../utils';
+import { withStyle } from '../../theme';
 
 class Input extends Component {
   render() {
@@ -100,4 +101,4 @@ const styles = StyleSheet.create({
 });
 
 
-export default Input;
+export default withStyle(Input);

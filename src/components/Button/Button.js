@@ -7,12 +7,12 @@
 import React, { Component } from 'react';
 import {
   View,
-  Text,
   TouchableOpacity,
   ActivityIndicator,
   StyleSheet,
   Platform,
 } from 'react-native';
+import { Text } from '../Text';
 import PropTypes from 'prop-types';
 import {
   blue,
@@ -20,6 +20,7 @@ import {
   black,
 } from '../../styles';
 import { scale } from '../../utils';
+import { withStyle } from '../../theme';
 
 class Button extends Component {
   render() {
@@ -132,4 +133,4 @@ Button.propTypes = {
 }
 
 
-export default Button;
+export default withStyle(Button);
