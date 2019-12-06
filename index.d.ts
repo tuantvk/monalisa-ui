@@ -24,6 +24,13 @@ declare module "monalisa-ui" {
       children?: React.ReactElement<any>;
     }
 
+
+    interface StyleProvider extends Testable {
+      style?: any;
+      children?: React.ReactElement<any>;
+    }
+
+
     interface ArticleCard extends Testable {
       img?: string;
       title?: string;
@@ -262,6 +269,12 @@ declare module "monalisa-ui" {
   }
 
 }
+
+/** 
+MonalisaUI.StyleProvider
+*/
+export class StyleProvider extends React.Component<MonalisaUI.StyleProvider, any> { }
+
 
 /** 
 MonalisaUI.ArticleCard

@@ -56,7 +56,7 @@ export default Example;
 | iconRight     | -             | element   | Displays Icon to the right of title |
 
 
-#### Example:
+#### Example
 
 ```javascript
 import React from 'react';

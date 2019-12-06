@@ -29,7 +29,7 @@ export default Example;
 | style         | -             | -         | Style for the text |
 
 
-#### Example:
+#### Example
 
 ```javascript
 import React from 'react';

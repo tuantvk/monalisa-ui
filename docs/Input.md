@@ -43,7 +43,7 @@ export default Example;
 | labelStyle    | -             | -         | Style for the label |
 
 
-#### Example:
+#### Example
 
 - input error
 

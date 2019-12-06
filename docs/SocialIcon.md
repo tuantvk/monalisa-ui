@@ -40,7 +40,7 @@ export default Example;
 | height        | 45            | string    | Height icon |
 
 
-#### Example:
+#### Example
 
 - SocialIcon raised
 

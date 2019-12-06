@@ -29,7 +29,7 @@ export default Example;
 | circleStyle   | -             | -         | Style of the thumbColor |
 | onChange      | -             | function  | Return value switch |
 
-#### Example:
+#### Example
 
 - switch customize
 

@@ -34,7 +34,7 @@ export default Example;
 | style         | -             | -         | Style for the card |
 
 
-#### Example:
+#### Example
 
 ```javascript
 import React from 'react';
@@ -74,7 +74,7 @@ Cards can contain images.
 | contentStyle     | -             | -         | Style for the content card |
 
 
-#### Example:
+#### Example
 
 ```javascript
 import React from 'react';

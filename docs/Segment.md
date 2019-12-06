@@ -34,7 +34,7 @@ export default Example;
 | onChange        | -             | function  | Return index tab when change |
 
 
-#### Example:
+#### Example
 
 - Segment custom
 

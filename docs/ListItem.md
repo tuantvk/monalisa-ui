@@ -44,7 +44,7 @@ export default Example;
 | border        | true          | boolean   | Border bottom ListItem |
 
 
-#### Example:
+#### Example
 
 - ListItem avatar
 

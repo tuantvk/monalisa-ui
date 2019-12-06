@@ -31,7 +31,7 @@ export default Example;
 | style         | -             | -         | Style for the row |
 
 
-#### Example:
+#### Example
 
 - space-between
 

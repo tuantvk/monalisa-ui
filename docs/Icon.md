@@ -46,7 +46,7 @@ View full example: [Icon Example](https://github.com/tuantvk/monalisa-ui/blob/ma
 | ios           | -             | string    | Name of the icon for iOS devices |
 
 
-#### Example:
+#### Example
 
 ```javascript
 import React from 'react';

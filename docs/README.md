@@ -66,6 +66,7 @@ npm install --save monalisa-ui
 - [Tag](https://tuantvk.gitbook.io/monalisaui/tag)
 - [Text](https://tuantvk.gitbook.io/monalisaui/text)
 - [Textarea](https://tuantvk.gitbook.io/monalisaui/textarea)
+- [Theme](https://tuantvk.gitbook.io/monalisaui/theme)
 
 
 ## Contributing

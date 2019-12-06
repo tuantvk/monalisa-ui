@@ -36,7 +36,7 @@ export default Example;
 | value         | -             | string    | Show value in avatar |
 
 
-#### Example:
+#### Example
 
 ```javascript
 import React from 'react';
@@ -99,7 +99,7 @@ export default Example;
 | maxCount      | 0             | number      | The maximum number of avatars allowed in the grid |
 
 
-#### Example:
+#### Example
 
 - stack
 

@@ -31,7 +31,7 @@ export default Example;
 | style         | -             | -         | Style for the tag |
 
 
-#### Example:
+#### Example
 
 - tag color and background color
 

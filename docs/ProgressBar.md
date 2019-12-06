@@ -32,7 +32,7 @@ export default Example;
 | style         | -             | -                  | Style of the progress bar |
 
 
-#### Example:
+#### Example
 
 - ProgressBar custom
 

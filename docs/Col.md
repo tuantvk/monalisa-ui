@@ -30,7 +30,7 @@ export default Example;
 | style         | -             | -         | Style for the col |
 
 
-#### Example:
+#### Example
 
 - column
 

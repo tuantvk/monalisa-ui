@@ -34,7 +34,7 @@ export default Example;
 | onChange              | -             | function  | Return value review |
 
 
-#### Example:
+#### Example
 
 - rating custom
 
