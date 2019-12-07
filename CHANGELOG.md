@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## Version 0.2.3
+Build: 191207
+
+### Updated
+  - Update docs screenshot
+
+### Fixed
+  - [#6](https://github.com/tuantvk/monalisa-ui/issues/6) Implement additional options
+
+
+
 ## Version 0.2.2
 Build: 191206
 
