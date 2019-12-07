@@ -2,6 +2,13 @@
 
 Displays a circular loading indicator.
 
+<p align="center">
+  <img
+	  src="https://raw.githubusercontent.com/tuantvk/monalisa-ui/master/assets/monalisaui-spinner.png"
+		alt="MonalisaUI"
+		width="260">
+</p>
+
 View full example: [Spinner Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Spinner/index.js)
 
 

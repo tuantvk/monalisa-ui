@@ -2,6 +2,13 @@
 
 Use this property to center a child horizontally within a container with flexDirection set to row.
 
+<p align="center">
+  <img
+	  src="https://raw.githubusercontent.com/tuantvk/monalisa-ui/master/assets/monalisaui-row.png"
+		alt="MonalisaUI"
+		width="260">
+</p>
+
 View full example: [Row Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Row/index.js)
 
 ```javascript

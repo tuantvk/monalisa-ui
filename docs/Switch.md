@@ -2,6 +2,13 @@
 
 Renders a boolean input.
 
+<p align="center">
+  <img
+	  src="https://raw.githubusercontent.com/tuantvk/monalisa-ui/master/assets/monalisaui-switch.png"
+		alt="MonalisaUI"
+		width="260">
+</p>
+
 View full example: [Switch Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Switch/index.js)
 
 ```javascript

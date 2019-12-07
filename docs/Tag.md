@@ -2,6 +2,13 @@
 
 This component displays as a tag with an optional button to remove the given tag.
 
+<p align="center">
+  <img
+	  src="https://raw.githubusercontent.com/tuantvk/monalisa-ui/master/assets/monalisaui-tag.png"
+		alt="MonalisaUI"
+		width="260">
+</p>
+
 View full example: [Tag Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Tag/index.js)
 
 ```javascript

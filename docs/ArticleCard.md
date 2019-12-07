@@ -2,6 +2,13 @@
 
 Build awesome article card for your blog articles quickly.
 
+<p align="center">
+  <img
+	  src="https://raw.githubusercontent.com/tuantvk/monalisa-ui/master/assets/monalisaui-articlecard.png"
+		alt="MonalisaUI"
+		width="260">
+</p>
+
 View full example: [ArticleCard Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/ArticleCard/index.js)
 
 ```javascript

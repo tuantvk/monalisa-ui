@@ -6,6 +6,13 @@ A component that represents a user.
 - Avatar
 - Avatar Group
 
+<p align="center">
+  <img
+	  src="https://raw.githubusercontent.com/tuantvk/monalisa-ui/master/assets/monalisaui-avatar.png"
+		alt="MonalisaUI"
+		width="260">
+</p>
+
 View full example: [Avatar Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Avatar/index.js)
 
 ## Avatar

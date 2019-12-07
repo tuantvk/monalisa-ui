@@ -2,6 +2,13 @@
 
 Text displays words and characters at various sizes.
 
+<p align="center">
+  <img
+	  src="https://raw.githubusercontent.com/tuantvk/monalisa-ui/master/assets/monalisaui-text.png"
+		alt="MonalisaUI"
+		width="260">
+</p>
+
 View full example: [Text Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Text/index.js)
 
 ```javascript

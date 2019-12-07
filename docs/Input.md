@@ -2,6 +2,12 @@
 
 Inputs allow users to enter text into a UI.
 
+<p align="center">
+  <img
+	  src="https://raw.githubusercontent.com/tuantvk/monalisa-ui/master/assets/monalisaui-input.png"
+		alt="MonalisaUI"
+		width="260">
+</p>
 
 View full example: [Input Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Input/index.js)
 

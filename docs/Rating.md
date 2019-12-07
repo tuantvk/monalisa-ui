@@ -2,6 +2,13 @@
 
 Ratings are used to collect measurable feedback from users.
 
+<p align="center">
+  <img
+	  src="https://raw.githubusercontent.com/tuantvk/monalisa-ui/master/assets/monalisaui-rating.png"
+		alt="MonalisaUI"
+		width="260">
+</p>
+
 View full example: [Rating Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Rating/index.js)
 
 ```javascript

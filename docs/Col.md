@@ -3,6 +3,13 @@
 Align children from top to bottom. 
 If wrapping is enabled then the next line will start to the left first item on the top of the container.
 
+<p align="center">
+  <img
+	  src="https://raw.githubusercontent.com/tuantvk/monalisa-ui/master/assets/monalisaui-col.png"
+		alt="MonalisaUI"
+		width="260">
+</p>
+
 View full example: [Col Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Col/index.js)
 
 ```javascript

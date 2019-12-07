@@ -2,6 +2,13 @@
 
 Perfect, crisp, high definition icons and pixel ideal fonts.
 
+<p align="center">
+  <img
+	  src="https://raw.githubusercontent.com/tuantvk/monalisa-ui/master/assets/monalisaui-icon.png"
+		alt="MonalisaUI"
+		width="260">
+</p>
+
 Here is a repo that lists down icons of available [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) icon families.
 
 

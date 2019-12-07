@@ -2,6 +2,13 @@
 
 Displays social media networks.
 
+<p align="center">
+  <img
+	  src="https://raw.githubusercontent.com/tuantvk/monalisa-ui/master/assets/monalisaui-socialicon.png"
+		alt="MonalisaUI"
+		width="260">
+</p>
+
 View full example: [SocialIcon Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/SocialIcon/index.js)
 
 ```javascript

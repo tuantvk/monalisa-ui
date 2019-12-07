@@ -3,6 +3,13 @@
 Display rows of information, such as a contact list or  menu. 
 They are very customizeable and can contain avatars, icons, and more.
 
+<p align="center">
+  <img
+	  src="https://raw.githubusercontent.com/tuantvk/monalisa-ui/master/assets/monalisaui-listitem.png"
+		alt="MonalisaUI"
+		width="260">
+</p>
+
 View full example: [ListItem Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/ListItem/index.js)
 
 ```javascript

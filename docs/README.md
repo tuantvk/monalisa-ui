@@ -29,6 +29,12 @@
 React Native UI Library. 
 MonalisaUI is a free and open source UI component library for React Native to build native mobile apps for iOS and Android platforms.
 
+<p align="center">
+  <img
+	  src="https://raw.githubusercontent.com/tuantvk/monalisa-ui/master/assets/monalisa-cover.png"
+		alt="MonalisaUI"
+		width="1200">
+</p>
 
 ## Usage
 

@@ -6,6 +6,13 @@ Buttons are touchable elements used to interact with the screen display text, ic
 - Button
 - Button Group
 
+<p align="center">
+  <img
+	  src="https://raw.githubusercontent.com/tuantvk/monalisa-ui/master/assets/monalisaui-button.png"
+		alt="MonalisaUI"
+		width="260">
+</p>
+
 View full example: [Button Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Button/index.js)
 
 

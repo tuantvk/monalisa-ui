@@ -2,6 +2,13 @@
 
 Dividers are visual separators of content.
 
+<p align="center">
+  <img
+	  src="https://raw.githubusercontent.com/tuantvk/monalisa-ui/master/assets/monalisaui-divider.png"
+		alt="MonalisaUI"
+		width="260">
+</p>
+
 View full example: [Divider Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Divider/index.js)
 
 

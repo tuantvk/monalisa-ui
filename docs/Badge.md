@@ -2,6 +2,13 @@
 
 Badges are small components typically used to communicate a numerical value.
 
+<p align="center">
+  <img
+	  src="https://raw.githubusercontent.com/tuantvk/monalisa-ui/master/assets/monalisaui-badge.png"
+		alt="MonalisaUI"
+		width="260">
+</p>
+
 View full example: [Badge Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Badge/index.js)
 
 

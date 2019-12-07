@@ -2,6 +2,13 @@
 
 Segments are best used as an alternative for tabs.
 
+<p align="center">
+  <img
+	  src="https://raw.githubusercontent.com/tuantvk/monalisa-ui/master/assets/monalisaui-segment.png"
+		alt="MonalisaUI"
+		width="260">
+</p>
+
 View full example: [Segment Example](https://github.com/tuantvk/monalisa-ui/blob/master/example/Segment/index.js)
 
 ```javascript
