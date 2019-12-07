@@ -36,6 +36,7 @@ class ArticleCard extends Component {
       categoryStyle,
       titleStyle,
       footerStyle,
+      styleContent,
       activeOpacity,
       ...rest
     } = this.props;
@@ -47,7 +48,7 @@ class ArticleCard extends Component {
             source={{ uri: img }}
             style={[styles.img, imageStyle]}
           />
-          <View style={styles.content}>
+          <View style={[styles.content, styleContent]}>
             <View>
               <Text style={[styles.category, categoryStyle]}>{category}</Text>
               <Text style={[styles.title, titleStyle]}>{title}</Text>

@@ -96,7 +96,7 @@ export default ({ navigation }) => (
     <Button
       buttonStyle={styles.btn}
       title="Icon"
-      iconRight={<Icon name="checkcircleo" color="#fff" size={20} />}
+      iconLeft={<Icon name="checkcircleo" color="#fff" size={20} />}
     />
     <Button
       buttonStyle={styles.btn}

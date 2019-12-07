@@ -38,6 +38,7 @@ class AvatarGroup extends Component {
       data,
       appearance,
       maxCount,
+      ...rest
     } = this.props;
 
     return (
@@ -51,6 +52,7 @@ class AvatarGroup extends Component {
               if (index === maxCount) {
                 return (
                   <Avatar
+                    {...rest}
                     key={index}
                     isVisible={false}
                     value={`+${subNumber(data.length, maxCount)}`}

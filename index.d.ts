@@ -42,6 +42,7 @@ declare module "monalisa-ui" {
       categoryStyle?: RNTextStyleProp;
       titleStyle?: RNTextStyleProp;
       footerStyle?: RNTextStyleProp;
+      styleContent?: RNViewStyleProp;
       activeOpacity?: number;
     }
 
@@ -89,6 +90,7 @@ declare module "monalisa-ui" {
       outlineWidth?: number;
       raised?: boolean;
       iconRight?: React.ReactElement<any>;
+      iconLeft?: React.ReactElement<any>;
     }
 
 

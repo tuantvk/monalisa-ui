@@ -33,6 +33,7 @@ class ListItem extends Component {
       avatarStyle,
       border,
       footer,
+      ...rest
     } = this.props;
 
     return (
@@ -56,6 +57,7 @@ class ListItem extends Component {
               height={40}
               circle
               style={[styles.avatar, avatarStyle]}
+              {...rest}
             />
           }
           <View style={styles.content}>

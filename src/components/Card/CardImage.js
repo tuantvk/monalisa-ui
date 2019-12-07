@@ -20,16 +20,18 @@ class CardImage extends Component {
       children,
       imageStyle,
       contentStyle,
+      rounded,
       ...rest
     } = this.props;
 
     return (
-      <Card {...rest}>
+      <Card {...rest} rounded={rounded}>
         <Image
           source={source}
           style={[
             styles.image,
             { height },
+            rounded && { borderRadius: scale(8) },
             imageStyle,
           ]}
         />

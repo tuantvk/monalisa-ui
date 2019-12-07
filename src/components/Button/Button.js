@@ -39,6 +39,7 @@ class Button extends Component {
       outline,
       outlineWidth,
       raised,
+      iconLeft,
       iconRight,
       ...rest
     } = this.props;
@@ -59,17 +60,22 @@ class Button extends Component {
         buttonStyle,
       ]}>
         <TouchableOpacity style={styles.row} disabled={disabled} {...rest} activeOpacity={activeOpacity}>
-          <View style={styles.icon}>
-            {iconRight}
+          {!loading && <View style={styles.iconLeft}>
+            {iconLeft}
           </View>
+          }
           {
             loading ?
               <ActivityIndicator color={loadingColor} />
               :
               <Text style={[
-                { color: String(outline) === 'true' ? blue : transparent ? black : titleColor },
+                { color: String(outline) === 'true' ? blue : (transparent ? black : titleColor) },
                 titleStyle,
               ]}>{title}</Text>
+          }
+          {!loading && <View style={styles.iconRight}>
+            {iconRight}
+          </View>
           }
         </TouchableOpacity>
       </View>
@@ -99,8 +105,11 @@ const styles = StyleSheet.create({
       },
     }),
   },
-  icon: {
+  iconLeft: {
     marginRight: scale(6),
+  },
+  iconRight: {
+    marginLeft: scale(6),
   }
 });
 
@@ -129,6 +138,7 @@ Button.propTypes = {
   ]),
   outlineWidth: PropTypes.number,
   raised: PropTypes.bool,
+  iconLeft: PropTypes.element,
   iconRight: PropTypes.element,
 }
 

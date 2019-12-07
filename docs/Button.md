@@ -61,6 +61,7 @@ export default Example;
 | outlineWidth  | 1             | number    | Width outline |
 | raised        | false         | boolean   | Raised button styling |
 | iconRight     | -             | element   | Displays Icon to the right of title |
+| iconLeft      | -             | element   | Displays Icon to the left of title |
 
 
 #### Example
