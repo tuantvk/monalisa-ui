@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## Version 0.3.0
+Build: 191208
+
+### Updated
+  - [#9](https://github.com/tuantvk/monalisa-ui/issues/9) Update support TypeScript to allow Type Composition
+
+### Fixed
+  - [#10](https://github.com/tuantvk/monalisa-ui/issues/10) Duplicate Spinner export in index.d.ts
+
+
+
 ## Version 0.2.3
 Build: 191207
 
