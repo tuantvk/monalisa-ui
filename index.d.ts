@@ -391,7 +391,7 @@ export class Spinner extends React.Component<MonalisaUI.Spinner, any> { }
 /** 
 MonalisaUI.Switch
 */
-export class Spinner extends React.Component<MonalisaUI.Switch, any> { }
+export class Switch extends React.Component<MonalisaUI.Switch, any> { }
 
 
 /** 
