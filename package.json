@@ -20,12 +20,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "react": "16.9.0",
-    "react-native": "0.61.5",
-    "react-native-gesture-handler": "^1.5.1",
-    "react-native-vector-icons": "^6.6.0",
-    "react-navigation": "^4.0.10",
-    "react-navigation-stack": "^1.10.3"
+    "prop-types": "^15.7.2",
+    "react-native-vector-icons": "^6.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.7.4",
@@ -35,12 +31,17 @@
     "eslint": "^6.7.1",
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.57.0",
-    "prop-types": "^15.7.2",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "react-native-gesture-handler": "^1.5.1",
+    "react-navigation": "^4.0.10",
+    "react-navigation-stack": "^1.10.3",
     "react-test-renderer": "16.9.0"
   },
   "jest": {
     "preset": "react-native"
   },
+  "typings": "index.d.ts",
   "keywords": [
     "react native",
     "monalisa-ui",
