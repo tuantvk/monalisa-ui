@@ -4,6 +4,7 @@ export default [
   "Badge",
   "Button",
   "Card",
+  "CheckBox",
   "Col",
   "Divider",
   "Icon",

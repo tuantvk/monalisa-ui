@@ -28,6 +28,7 @@ import Rating from './example/Rating';
 import ArticleCard from './example/ArticleCard';
 import Segment from './example/Segment';
 import ProgressBar from './example/ProgressBar';
+import CheckBox from './example/CheckBox';
 
 const AppNavigator = createStackNavigator({
   Example: {
@@ -95,6 +96,9 @@ const AppNavigator = createStackNavigator({
   },
   ProgressBar: {
     screen: ProgressBar,
+  },
+  CheckBox: {
+    screen: CheckBox,
   },
 }, {
   initialRouteName: 'Example',

@@ -56,6 +56,7 @@ npm install --save monalisa-ui
 - [Badge](https://tuantvk.gitbook.io/monalisaui/badge)
 - [Button](https://tuantvk.gitbook.io/monalisaui/button)
 - [Card](https://tuantvk.gitbook.io/monalisaui/card)
+- [CheckBox](https://tuantvk.gitbook.io/monalisaui/checkbox)
 - [Col](https://tuantvk.gitbook.io/monalisaui/col)
 - [Divider](https://tuantvk.gitbook.io/monalisaui/divider)
 - [Icon](https://tuantvk.gitbook.io/monalisaui/icon)

@@ -6,6 +6,7 @@
 * [Badge](Badge.md)
 * [Button](Button.md)
 * [Card](Card.md)
+* [CheckBox](CheckBox.md)
 * [Col](Col.md)
 * [Divider](Divider.md)
 * [Icon](Icon.md)
