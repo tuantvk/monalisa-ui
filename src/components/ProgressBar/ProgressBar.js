@@ -8,6 +8,7 @@ import React, { Component } from 'react';
 import {
   View,
   StyleSheet,
+  Animated,
 } from 'react-native';
 import PropTypes from 'prop-types';
 import { scale } from '../../utils';
@@ -17,6 +18,24 @@ import {
 } from '../../styles';
 
 class ProgressBar extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      progressBar: new Animated.Value(0),
+    }
+  }
+
+  componentDidMount = () => {
+    this._start();
+  };
+
+  _start = () => {
+    Animated.timing(this.state.progressBar, {
+      toValue: this.props.value,
+      duration: this.props.value * 10,
+    }).start();
+  }
+
   render() {
     const {
       height,
@@ -24,12 +43,17 @@ class ProgressBar extends Component {
       bgColor,
       borderRadius,
       borderWidth,
-      value,
       style,
       children,
     } = this.props;
 
     let radius = borderRadius || height / 2;
+
+    const width = this.state.progressBar.interpolate({
+      inputRange: [0, 100],
+      outputRange: ["0%", "100%"],
+      extrapolate: "clamp"
+    });
 
     return (
       <View style={[
@@ -42,10 +66,10 @@ class ProgressBar extends Component {
         },
         style,
       ]}>
-        <View style={[
+        <Animated.View style={[
           {
             backgroundColor: bgColor,
-            width: `${value}%`,
+            width,
             flex: 1,
             borderRadius: scale(radius),
           },
@@ -54,7 +78,7 @@ class ProgressBar extends Component {
           {children && React.cloneElement(children,
             { style: { fontSize: height - 3, color: white } }
           )}
-        </View>
+        </Animated.View>
       </View>
     );
   }
