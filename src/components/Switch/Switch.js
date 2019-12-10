@@ -9,6 +9,7 @@ import {
   View,
   StyleSheet,
   TouchableOpacity,
+  Animated,
 } from 'react-native';
 import PropTypes from 'prop-types';
 import {
@@ -26,20 +27,33 @@ class Switch extends Component {
     super(props);
     this.state = {
       switchVal: props.value,
+      slide: new Animated.Value(0),
     }
+  }
+
+  _start = index => {
+    Animated.timing(this.state.slide, {
+      toValue: index,
+      duration: 250,
+      useNativeDriver: true
+    }).start();
   }
 
   _changeSwitch = () => {
     this.setState(prev => ({
       switchVal: !prev.switchVal,
     }), () => {
+      this._start(Number(this.state.switchVal));
       this.props.onChange
         && this.props.onChange(this.state.switchVal);
     })
   }
 
   render() {
-    const { switchVal } = this.state;
+    const {
+      switchVal,
+      slide,
+    } = this.state;
     const {
       style,
       height,
@@ -63,15 +77,22 @@ class Switch extends Component {
           },
           style,
         ]}>
-          <View style={[
+          <Animated.View style={[
             {
               height: wScale(height - 6),
               width: wScale(height - 6),
               borderRadius: wScale(height / 2),
               backgroundColor: thumbColor,
               position: 'absolute',
+              transform: [
+                {
+                  translateX: slide.interpolate({
+                    inputRange: [0, 1],
+                    outputRange: [6, wScale(height)]
+                  })
+                }
+              ],
             },
-            switchVal ? { right: pd } : { left: pd },
             circleStyle,
           ]} />
         </View>
