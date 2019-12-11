@@ -23,6 +23,8 @@
   </a>
 </p>
 
+[![CircleCI](https://circleci.com/gh/tuantvk/monalisa-ui/tree/master.svg?style=svg)](https://circleci.com/gh/tuantvk/monalisa-ui/tree/master)
+
 [![NPM](https://nodei.co/npm/monalisa-ui.png?downloads=true)](https://nodei.co/npm/monalisa-ui/)
 
 

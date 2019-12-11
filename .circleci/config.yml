@@ -35,7 +35,7 @@ jobs:
             - v1-dependencies-node-
       - run:
           name: Run tests
-          command: yarn run test # this command will be added to/found in your package.json scripts
+          command: yarn run test -u # this command will be added to/found in your package.json scripts
 
 workflows:
   version: 2
