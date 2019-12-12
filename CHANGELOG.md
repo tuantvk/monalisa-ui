@@ -1,5 +1,14 @@
 # CHANGELOG
 
+
+## Version 0.3.1
+Build: 191212
+
+### Updated
+  - [#11](https://github.com/tuantvk/monalisa-ui/issues/11) New feature in version 0.3.1
+
+
+
 ## Version 0.3.0
 Build: 191208
 
