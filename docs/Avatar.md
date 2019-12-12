@@ -34,6 +34,7 @@ export default Example;
 
 | Property      | Default       | Option    | Description  |
 | ------------- |:-------------:|:---------:|:------------:|
+| source        | -             | -         | The image source (either a remote URL or a local file resource) |
 | circle        | false         | boolean   | Shapes the avatar to a circle |
 | rounded       | false         | boolean   | Renders avatar with slightly round shaped edges |
 | style         | -             | -         | Style for the avatar |

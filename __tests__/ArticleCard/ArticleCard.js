@@ -24,15 +24,6 @@ describe('ArticleCard Componnent', () => {
     expect(toJson(component)).toMatchSnapshot();
   });
 
-  // it('should pass img', () => {
-  //   const component = shallow(
-  //     <ArticleCard img='http://lorempixel.com/640/480/abstract' />
-  //   );
-
-  //   expect(component.length).toBe(1);
-  //   expect(toJson(component)).toMatchSnapshot();
-  // });
-
   it('should pass title, category props should still work', () => {
     const { queryByText } = render(
       <ArticleCard title="foo" category="bar" />

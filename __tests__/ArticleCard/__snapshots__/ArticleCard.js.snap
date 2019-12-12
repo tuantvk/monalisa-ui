@@ -1,11 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ArticleCard Componnent should pass img 1`] = `
-<ContextConsumer>
-  <Component />
-</ContextConsumer>
-`;
-
 exports[`ArticleCard Componnent should render without issues 1`] = `
 <ContextConsumer>
   <Component />
