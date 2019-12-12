@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar Componnent should pass circle props should still work 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`Avatar Componnent should pass circle props should still work 2`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`Avatar Componnent should pass style props should still work 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`Avatar Componnent should render without issues 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;

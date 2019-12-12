@@ -110,6 +110,21 @@ export interface CardProps extends Testable {
 }
 
 
+export interface CheckBoxProps extends Testable {
+  disabled?: boolean;
+  checkColor?: string;
+  uncheckColor?: string;
+  activeOpacity?: number;
+  size?: number;
+  label?: string;
+  alignVerticalTop?: boolean;
+  onChange?: Function;
+  value?: boolean;
+  style?: RNViewStyleProp;
+  styleLabel?: RNTextStyleProp;
+}
+
+
 export interface ColProps extends ViewContentProps {
   content?: "column" | "column-reverse";
 }
@@ -312,6 +327,12 @@ export class ButtonGroup extends React.Component<ButtonGroupProps, any> { }
 MonalisaUI.Card
 */
 export class Card extends React.Component<CardProps, any> { }
+
+
+/** 
+MonalisaUI.CheckBox
+*/
+export class CheckBox extends React.Component<CheckBoxProps, any> { }
 
 
 /** 

@@ -35,4 +35,8 @@ export const social = {
 
 export const checkTypeSocical = type => {
   return social[type];
-} 
+}
+
+export const checkProp = value => {
+  return String(value) === 'true' ? true : false;
+}
