@@ -19,7 +19,10 @@ import {
   white,
   black,
 } from '../../styles';
-import { scale } from '../../utils';
+import {
+  scale,
+  checkProp,
+} from '../../utils';
 import { withStyle } from '../../theme';
 
 class Button extends Component {
@@ -53,7 +56,7 @@ class Button extends Component {
           backgroundColor: outline ? white : transparent ? 'transparent' : bgColor
         },
         outline && {
-          borderColor: String(outline) === 'true' ? blue : outline,
+          borderColor: checkProp(outline) ? blue : outline,
           borderWidth: outlineWidth
         },
         raised && styles.raised,
@@ -66,10 +69,16 @@ class Button extends Component {
           }
           {
             loading ?
-              <ActivityIndicator color={loadingColor} />
+              <ActivityIndicator
+                color={
+                  bgColor === loadingColor && !outline
+                    ? (transparent ? loadingColor : white)
+                    : loadingColor
+                }
+              />
               :
               <Text style={[
-                { color: String(outline) === 'true' ? blue : (transparent ? black : titleColor) },
+                { color: checkProp(outline) ? blue : (transparent ? black : titleColor) },
                 titleStyle,
               ]}>{title}</Text>
           }

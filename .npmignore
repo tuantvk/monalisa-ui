@@ -34,3 +34,4 @@ publish/
 publish_npm/
 publish.sh
 book.json
+jestSetup.js
