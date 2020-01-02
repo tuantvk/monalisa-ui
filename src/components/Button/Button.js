@@ -48,21 +48,21 @@ class Button extends Component {
     } = this.props;
 
     return (
-      <View style={[
-        styles.container,
-        styles.row,
-        {
-          borderRadius,
-          backgroundColor: outline ? white : transparent ? 'transparent' : bgColor
-        },
-        outline && {
-          borderColor: checkProp(outline) ? blue : outline,
-          borderWidth: outlineWidth
-        },
-        raised && styles.raised,
-        buttonStyle,
-      ]}>
-        <TouchableOpacity style={styles.row} disabled={disabled} {...rest} activeOpacity={activeOpacity}>
+      <TouchableOpacity style={styles.row} disabled={disabled} {...rest} activeOpacity={activeOpacity}>
+        <View style={[
+          styles.container,
+          styles.row,
+          {
+            borderRadius,
+            backgroundColor: outline ? white : transparent ? 'transparent' : bgColor
+          },
+          outline && {
+            borderColor: checkProp(outline) ? blue : outline,
+            borderWidth: outlineWidth
+          },
+          raised && styles.raised,
+          buttonStyle,
+        ]}>
           {!loading && <View style={styles.iconLeft}>
             {iconLeft}
           </View>
@@ -86,8 +86,8 @@ class Button extends Component {
             {iconRight}
           </View>
           }
-        </TouchableOpacity>
-      </View>
+        </View>
+      </TouchableOpacity>
     );
   }
 }

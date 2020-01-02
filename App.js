@@ -29,6 +29,7 @@ import ArticleCard from './example/ArticleCard';
 import Segment from './example/Segment';
 import ProgressBar from './example/ProgressBar';
 import CheckBox from './example/CheckBox';
+import Theme from './example/Theme';
 
 const AppNavigator = createStackNavigator({
   Example: {
@@ -99,6 +100,9 @@ const AppNavigator = createStackNavigator({
   },
   CheckBox: {
     screen: CheckBox,
+  },
+  Theme: {
+    screen: Theme,
   },
 }, {
   initialRouteName: 'Example',

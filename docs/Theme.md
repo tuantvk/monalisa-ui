@@ -9,7 +9,7 @@ and provide the final style to components.
 
 ```javascript
 import React, { Component } from 'react';
-import { StyleProvider } from 'monalisa-ui';
+import { Text, StyleProvider } from 'monalisa-ui';
 
 const Login = () => (
   <Text>Hello MonalisaUI</Text>

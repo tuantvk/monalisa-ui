@@ -39,6 +39,7 @@ class Tag extends Component {
             backgroundColor: bgColor || gray_light,
             paddingHorizontal: scale(size),
             borderRadius: scale(size / 2),
+            alignSelf: 'flex-start',
           },
           styles.row,
           style,

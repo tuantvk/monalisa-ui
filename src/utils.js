@@ -5,6 +5,7 @@
  */
 
 import { Dimensions } from 'react-native';
+import commonColor from './theme/commonColor';
 
 const { height, width } = Dimensions.get('window');
 
@@ -39,4 +40,14 @@ export const checkTypeSocical = type => {
 
 export const checkProp = value => {
   return String(value) === 'true' ? true : false;
+}
+
+export const checkTheme = type => {
+  if (type === 'light') {
+    return commonColor.light;
+  }
+  if (type === 'dark') {
+    return commonColor.dark;
+  }
+  return {};
 }
