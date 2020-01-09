@@ -34,3 +34,31 @@ class App extends Component {
 };
 export default App;
 ```
+
+
+#### Dark theme and Light theme
+
+Options:
+
+- dark
+- light
+
+```javascript
+import React, { Component } from 'react';
+import { Text, StyleProvider } from 'monalisa-ui';
+
+const Login = () => (
+  <Text>Hello MonalisaUI</Text>
+);
+
+class App extends Component {
+  render() {
+    return (
+      <StyleProvider theme="dark">
+        <Login />
+      </StyleProvider>
+    );
+  }
+};
+export default App;
+```
