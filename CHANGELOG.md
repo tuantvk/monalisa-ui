@@ -1,6 +1,19 @@
 # CHANGELOG
 
 
+## Version 0.3.2
+Build: 200109
+
+### Updated
+  - [#14](https://github.com/tuantvk/monalisa-ui/issues/14) Update Themed Component
+
+  - Update docs Theme missing Text component
+  - Fix warning interface ViewContentProps children
+  - Fix Tag component background color full
+  - Fix Button component onPress in background
+
+
+
 ## Version 0.3.1
 Build: 191212
 

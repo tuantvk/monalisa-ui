@@ -10,6 +10,7 @@ import {
   Layout,
   Title,
 } from '../screen';
+import { } from '../../'
 
 // Component
 import { Text } from '../../src/components/Text';
@@ -26,12 +27,20 @@ import { StyleProvider } from '../../src/theme';
 
 const Divider = () => <MUDivider style={{ marginVertical: 20 }} />
 
+const light = {
+  backgroundColor: '#fff',
+}
+
+const dark = {
+  backgroundColor: '#a6a6a6',
+}
+
 
 export default ({ navigation }) => {
   const [theme, changeTheme] = useState("light");
 
   return (
-    <Layout navigation={navigation}>
+    <Layout navigation={navigation} style={theme === 'light' ? light : dark}>
       <ScrollView>
         <Button title={`${theme.toUpperCase()} THEME`} onPress={() => changeTheme(prev => prev === 'light' ? 'dark' : 'light')} />
         <Divider />

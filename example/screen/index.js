@@ -18,9 +18,10 @@ import Icon from 'react-native-vector-icons/AntDesign';
 
 export const Layout = ({
   navigation,
+  style,
   children,
 }) => (
-    <View>
+    <View {...{ style }}>
       <StatusBar hidden />
       <ScrollView showsVerticalScrollIndicator={false}>
         <View style={styles.layout}>
