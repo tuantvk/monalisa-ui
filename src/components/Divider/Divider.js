@@ -8,6 +8,7 @@ import React, { Component } from 'react';
 import { View, StyleSheet } from 'react-native';
 import PropTypes from 'prop-types';
 import { blue } from '../../styles';
+import { withStyle } from '../../theme';
 
 class Divider extends Component {
   render() {
@@ -41,4 +42,4 @@ Divider.propTypes = {
 }
 
 
-export default Divider;
+export default withStyle(Divider);

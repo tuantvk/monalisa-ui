@@ -33,15 +33,19 @@ class Pricing extends Component {
       borderColor,
       style,
       button,
+
+      // theme
+      theme,
+      color,
     } = this.props;
 
     return (
       <View style={[styles.pricing, { borderColor, borderWidth: 1 }, style]}>
-        <Text style={[styles.title, { color: titleColor }, titleStyle]}>{title}</Text>
-        <Text style={[styles.price, { color: priceColor }, priceStyle]}>{price}</Text>
+        <Text style={[styles.title, { color: theme ? color : titleColor }, titleStyle]}>{title}</Text>
+        <Text style={[styles.price, { color: theme ? color : priceColor }, priceStyle]}>{price}</Text>
         {
           info.map((value, index) => (
-            <Text key={index} style={{ color: gray }}>{value}</Text>
+            <Text key={index} style={{ color: theme ? color : gray }}>{value}</Text>
           ))
         }
         <Button buttonStyle={styles.button} {...button} />

@@ -21,11 +21,12 @@ export interface Testable {
 export interface ViewContentProps extends Testable {
   style?: RNViewStyleProp;
   alignItems?: "flex-start" | "flex-end" | "center" | "stretch" | "baseline";
-  children?: React.ReactElement<any>;
+  children?: React.ReactElement[] | React.ReactElement;
 }
 
 
 export interface StyleProviderProps extends Testable {
+  theme?: "primary" | "light" | "dark";
   style?: any;
   children?: React.ReactElement<any>;
 }

@@ -9,9 +9,10 @@ import ThemeContext from './ThemeContext';
 
 const StyleProvider = ({
   style,
+  theme,
   children,
 }) => (
-    <ThemeContext.Provider value={style}>
+    <ThemeContext.Provider value={{ ...style, theme }}>
       {children}
     </ThemeContext.Provider>
   );

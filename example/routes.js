@@ -21,4 +21,5 @@ export default [
   "Tag",
   "Text",
   "Textarea",
+  "Theme",
 ]
